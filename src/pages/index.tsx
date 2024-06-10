@@ -117,7 +117,7 @@ const data = [
   },
 ];
 
-export default function Pages() {
+const Pages = () => {
   return (
     <div className="d-flex justify-center">
       <div className="container mx-auto">
@@ -264,3 +264,5 @@ export default function Pages() {
     </div>
   )
 }
+
+export default Pages
