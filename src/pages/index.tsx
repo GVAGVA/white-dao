@@ -117,7 +117,7 @@ const Pages = () => {
     <div>
       {/* background image */}
       <div className="fixed w-full h-[100vh] flex items-center justify-center -z-10">
-        <img src="/public/assets/images/bg-img.png" className="w-2/5" alt="bg-img" />
+        <img src="/assets/images/bg-img.png" className="w-2/5" alt="bg-img" />
       </div>
       {/* background image end */}
 
