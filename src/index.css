@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Pilat Extended';
+  src: url('/assets/fonts/Manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+  font-family: Pilat Extended;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.73);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  margin: 0;
+  background-color: #0A090F;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.7rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+
+
+/* custom */
+.cst-text-gradient {
+  font-family: Pilat Extended;
+  font-weight: 950;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #CC2D8F, #346DA1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.cst-footer-icon {
+  box-shadow: 0px 2px 2px 2px rgba(20, 23, 34, 0.699), 0px 3px 3px 3px rgba(18, 22, 34, 0.226);
+  transition: .3s;
+}
+
+.cst-footer-icon:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 4px 3px rgba(20, 23, 34, 0.705), 0px 9px 5px 4px rgba(18, 22, 34, 0.418);
+}
