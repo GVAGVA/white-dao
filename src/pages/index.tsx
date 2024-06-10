@@ -1,176 +1,184 @@
 import { Button } from "@material-tailwind/react";
-import { IconBrandDiscordFilled, IconBrandGithubFilled, IconBrandTwitterFilled, IconCurrencyEthereum, IconSettings } from "@tabler/icons-react";
-import {
-  Tabs,
-  TabsHeader,
-  TabsBody,
-  Tab,
-  TabPanel,
-} from "@material-tailwind/react";
-import React from "react";
+import { IconBrandDiscordFilled, IconBrandGithubFilled, IconBrandTwitterFilled, IconBug, IconComponents, IconCurrencyEthereum, IconDatabaseImport, IconDots, IconSettings } from "@tabler/icons-react";
+import { useState } from "react";
 import ServiceCard from "@/components/service-card";
 import Web3NewsCard from "@/components/web3-news-card";
 import Block from "@/components/block";
 
-const data = [
-  {
-    label: "Dashboard",
-    value: "dashboard",
-    icon: IconBrandGithubFilled,
-    desc: (
-      <div className="mx-auto lg:w-3/4" style={{ color: 'rgba(255, 255, 255, 0.87)' }}>
-        <h3 className="text-center mt-3">One-click project imports</h3>
-        <p className="text-center mx-auto lg:w-3/4 mb-6">Import a smart contract from any chain, or via GitHub repository URL to get started</p>
-        <div className="flex justify-between">
-          <div className="mr-1 w-full rounded-lg bg-gradient-to-b from-indigo-700 to-light-blue-700 p-[2px] opacity-75 hover:opacity-100">
-            <div className="rounded-lg bg-gradient-to-r h-full from-[#29234E] to-[#0D0C21] flex justify-between items-center py-2">
-              <p className="pl-3">Github repository or smart contract address</p>
-              <div className="flex items-center">
-                <span className="px-2 border-r border-gray-600">
-                  <IconSettings width={18} className="cursor-pointer" />
-                </span>
-                <span className="px-2">
-                  <IconCurrencyEthereum className="cursor-pointer" />
-                </span>
+type navLinkLabelType = 'HOME' | 'DAO GOVERNANCE' | 'AUDIT' | 'GIFT CARDS'
+
+type tabLabelType = 'Imports' | 'Contents' | 'Bounties'
+
+const tabContent = (value: tabLabelType) => {
+  switch (value) {
+    case 'Imports':
+      return (
+        <div className="mx-auto lg:w-3/4" style={{ color: 'rgba(255, 255, 255, 0.87)' }}>
+          <h4 className="text-center">One-click project imports</h4>
+          <p className="text-center mx-auto lg:w-3/4 mb-6">Import a smart contract from any chain, or via GitHub repository URL to get started</p>
+          <div className="flex justify-between">
+            <div className="mr-1 w-full rounded-lg bg-gradient-to-b from-indigo-700 to-light-blue-700 p-[2px] opacity-75 hover:opacity-100">
+              <div className="rounded-lg bg-gradient-to-r h-full from-[#29234E] to-[#0D0C21] flex justify-between items-center py-3">
+                <p className="pl-3 text-lg">Github repository or smart contract address</p>
+                <div className="flex items-center">
+                  <span className="px-2 py-1 border-r border-gray-600">
+                    <IconSettings width={18} className="cursor-pointer" />
+                  </span>
+                  <span className="px-2">
+                    <IconCurrencyEthereum className="cursor-pointer" />
+                  </span>
+                </div>
               </div>
             </div>
+            <Button>Import</Button>
           </div>
-          <Button>Import</Button>
-        </div>
-        <div className="flex justify-between items-center p-6 rounded-lg mt-16 bg-[#0F0D24] border border-gray-900">
-          <p>Use your GitHub to log in and simplify your workflow with one-click imports from your public and private repos.</p>
-          <div className="flex items-center gap-2 rounded-lg px-3 py-2 border border-gray-900 hover:border-[#796adb] hover:bg-[#191533] cursor-pointer duration-300">
-            <IconBrandGithubFilled />
-            <p className="w-full">Connect Github</p>
-          </div>
-        </div>
-      </div>
-    ),
-  },
-  {
-    label: "Profile",
-    value: "profile",
-    icon: IconBrandGithubFilled,
-    desc: (
-      <div className="mx-auto lg:w-3/4" style={{ color: 'rgba(255, 255, 255, 0.87)' }}>
-        <h3 className="text-center mt-3">One-click project imports</h3>
-        <p className="text-center mx-auto lg:w-3/4 mb-6">Import a smart contract from any chain, or via GitHub repository URL to get started</p>
-        <div className="flex justify-between">
-          <div className="mr-1 w-full rounded-lg bg-gradient-to-b from-indigo-700 to-light-blue-700 p-[2px] opacity-75 hover:opacity-100">
-            <div className="rounded-lg bg-gradient-to-r h-full from-[#29234E] to-[#0D0C21] flex justify-between items-center py-2">
-              <p className="pl-3">Github repository or smart contract address</p>
-              <div className="flex items-center">
-                <span className="px-2 border-r border-gray-600">
-                  <IconSettings width={18} className="cursor-pointer" />
-                </span>
-                <span className="px-2">
-                  <IconCurrencyEthereum className="cursor-pointer" />
-                </span>
-              </div>
+          <div className="flex justify-between items-center p-6 rounded-lg mt-16 bg-[#0F0D24] border border-gray-900">
+            <p>Use your GitHub to log in and simplify your workflow with one-click imports from your public and private repos.</p>
+            <div className="flex items-center gap-2 rounded-lg px-3 py-2 border border-gray-900 hover:border-[#796adb] hover:bg-[#191533] cursor-pointer duration-300">
+              <IconBrandGithubFilled />
+              <p className="w-full">Connect Github</p>
             </div>
           </div>
-          <Button>Import</Button>
         </div>
-        <div className="flex justify-between items-center p-6 rounded-lg mt-16 bg-[#0F0D24] border border-gray-900">
-          <p>Use your GitHub to log in and simplify your workflow with one-click imports from your public and private repos.</p>
-          <div className="flex items-center gap-2 rounded-lg px-3 py-2 border border-gray-900 hover:border-[#796adb] hover:bg-[#191533] cursor-pointer duration-300">
-            <IconBrandGithubFilled />
-            <p className="w-full">Connect Github</p>
-          </div>
-        </div>
-      </div>
-    ),
-  },
-  {
-    label: "Settings",
-    value: "settings",
-    icon: IconBrandGithubFilled,
-    desc: (
-      <div className="mx-auto lg:w-3/4" style={{ color: 'rgba(255, 255, 255, 0.87)' }}>
-        <h3 className="text-center mt-3">One-click project imports</h3>
-        <p className="text-center mx-auto lg:w-3/4 mb-6">Import a smart contract from any chain, or via GitHub repository URL to get started</p>
-        <div className="flex justify-between">
-          <div className="mr-1 w-full rounded-lg bg-gradient-to-b from-indigo-700 to-light-blue-700 p-[2px] opacity-75 hover:opacity-100">
-            <div className="rounded-lg bg-gradient-to-r h-full from-[#29234E] to-[#0D0C21] flex justify-between items-center py-2">
-              <p className="pl-3">Github repository or smart contract address</p>
-              <div className="flex items-center">
-                <span className="px-2 border-r border-gray-600">
-                  <IconSettings width={18} className="cursor-pointer" />
-                </span>
-                <span className="px-2">
-                  <IconCurrencyEthereum className="cursor-pointer" />
-                </span>
+      )
+
+    case 'Contents':
+      return (
+        <div className="mx-auto lg:w-3/4" style={{ color: 'rgba(255, 255, 255, 0.87)' }}>
+          <h4 className="text-center">One-click project imports</h4>
+          <p className="text-center mx-auto lg:w-3/4 mb-6">Import a smart contract from any chain, or via GitHub repository URL to get started</p>
+          <div className="flex justify-between">
+            <div className="mr-1 w-full rounded-lg bg-gradient-to-b from-indigo-700 to-light-blue-700 p-[2px] opacity-75 hover:opacity-100">
+              <div className="rounded-lg bg-gradient-to-r h-full from-[#29234E] to-[#0D0C21] flex justify-between items-center py-3">
+                <p className="pl-3 text-lg">Github repository or smart contract address</p>
+                <div className="flex items-center">
+                  <span className="px-2 py-1 border-r border-gray-600">
+                    <IconSettings width={18} className="cursor-pointer" />
+                  </span>
+                  <span className="px-2">
+                    <IconCurrencyEthereum className="cursor-pointer" />
+                  </span>
+                </div>
               </div>
             </div>
+            <Button>Import</Button>
           </div>
-          <Button>Import</Button>
-        </div>
-        <div className="flex justify-between items-center p-6 rounded-lg mt-16 bg-[#0F0D24] border border-gray-900">
-          <p>Use your GitHub to log in and simplify your workflow with one-click imports from your public and private repos.</p>
-          <div className="flex items-center gap-2 rounded-lg px-3 py-2 border border-gray-900 hover:border-[#796adb] hover:bg-[#191533] cursor-pointer duration-300">
-            <IconBrandGithubFilled />
-            <p className="w-full">Connect Github</p>
+          <div className="flex justify-between items-center p-6 rounded-lg mt-16 bg-[#0F0D24] border border-gray-900">
+            <p>Use your GitHub to log in and simplify your workflow with one-click imports from your public and private repos.</p>
+            <div className="flex items-center gap-2 rounded-lg px-3 py-2 border border-gray-900 hover:border-[#796adb] hover:bg-[#191533] cursor-pointer duration-300">
+              <IconBrandGithubFilled />
+              <p className="w-full">Connect Github</p>
+            </div>
           </div>
         </div>
-      </div>
-    ),
-  },
-];
+      )
+
+    case 'Bounties':
+      return (
+        <div className="mx-auto lg:w-3/4" style={{ color: 'rgba(255, 255, 255, 0.87)' }}>
+          <h4 className="text-center">One-click project imports</h4>
+          <p className="text-center mx-auto lg:w-3/4 mb-6">Import a smart contract from any chain, or via GitHub repository URL to get started</p>
+          <div className="flex justify-between">
+            <div className="mr-1 w-full rounded-lg bg-gradient-to-b from-indigo-700 to-light-blue-700 p-[2px] opacity-75 hover:opacity-100">
+              <div className="rounded-lg bg-gradient-to-r h-full from-[#29234E] to-[#0D0C21] flex justify-between items-center py-3">
+                <p className="pl-3 text-lg">Github repository or smart contract address</p>
+                <div className="flex items-center">
+                  <span className="px-2 py-1 border-r border-gray-600">
+                    <IconSettings width={18} className="cursor-pointer" />
+                  </span>
+                  <span className="px-2">
+                    <IconCurrencyEthereum className="cursor-pointer" />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <Button>Import</Button>
+          </div>
+          <div className="flex justify-between items-center p-6 rounded-lg mt-16 bg-[#0F0D24] border border-gray-900">
+            <p>Use your GitHub to log in and simplify your workflow with one-click imports from your public and private repos.</p>
+            <div className="flex items-center gap-2 rounded-lg px-3 py-2 border border-gray-900 hover:border-[#796adb] hover:bg-[#191533] cursor-pointer duration-300">
+              <IconBrandGithubFilled />
+              <p className="w-full">Connect Github</p>
+            </div>
+          </div>
+        </div>
+      )
+
+    default:
+      break;
+  }
+}
 
 const Pages = () => {
+  const [navLinkLabel, setNavLinkLabel] = useState<navLinkLabelType>('HOME')
+  const [tabLabel, setTabLabel] = useState<tabLabelType>('Imports')
+
   return (
-    <div className="d-flex justify-center">
+    <div>
+      {/* background image */}
+      <div className="fixed w-full h-[100vh] flex items-center justify-center -z-10">
+        <img src="/public/assets/images/bg-img.png" className="w-2/5" alt="bg-img" />
+      </div>
+      {/* background image end */}
+
       <div className="container mx-auto">
         {/* nav */}
-        <nav className="flex justify-between items-center py-4">
-          <img src="/img/logo.png" alt="logo" width={48} />
+        <nav className="flex items-center">
+          <img src="/assets/images/logo.png" alt="logo" width={48} />
           <div className="w-full flex justify-evenly">
-            <a href='/home' className="text-lg p-4 font-semibold">HOME</a>
-            <a href='/dao_governance' className="text-lg p-4 font-semibold">DAO GOVERNANCE</a>
-            <a href='/audit' className="text-lg p-4 font-semibold">AUDIT</a>
-            <a href='/gift_cards' className="text-lg p-4 font-semibold">GIFT CARDS</a>
+            <a href='#' className={"pt-1 block" + (navLinkLabel === 'HOME' ? ' bg-gradient-to-r from-[#FC6856] via-[#6DE79D] to-[#724EE8]' : '')} onClick={() => setNavLinkLabel('HOME')}>
+              <span className="block text-lg px-8 py-6 font-semibold bg-[#0A090F]">HOME</span>
+            </a>
+            <a href='#' className={"pt-1 block" + (navLinkLabel === 'DAO GOVERNANCE' ? ' bg-gradient-to-r from-[#FC6856] via-[#6DE79D] to-[#724EE8]' : '')} onClick={() => setNavLinkLabel('DAO GOVERNANCE')}>
+              <span className="block text-lg px-8 py-6 font-semibold bg-[#0A090F]">DAO GOVERNANCE</span>
+            </a>
+            <a href='#' className={"pt-1 block" + (navLinkLabel === 'AUDIT' ? ' bg-gradient-to-r from-[#FC6856] via-[#6DE79D] to-[#724EE8]' : '')} onClick={() => setNavLinkLabel('AUDIT')}>
+              <span className="block text-lg px-8 py-6 font-semibold bg-[#0A090F]">AUDIT</span>
+            </a>
+            <a href='#' className={"pt-1 block" + (navLinkLabel === 'GIFT CARDS' ? ' bg-gradient-to-r from-[#FC6856] via-[#6DE79D] to-[#724EE8]' : '')} onClick={() => setNavLinkLabel('GIFT CARDS')}>
+              <span className="block text-lg px-8 py-6 font-semibold bg-[#0A090F]">GIFT CARDS</span>
+            </a>
           </div>
-          <Button>CONNECT</Button>
+          <div className="mr-1 bg-gradient-to-br from-[#FB7054] via-[#617CDB] to-[#74E79A] p-[2px] opacity-75 hover:opacity-100 cursor-pointer">
+            <div className="bg-[#0A090F] h-min w-max flex gap-2 justify-between items-center py-2 px-3">
+              <IconDots />
+              <p>CONNECT NOW</p>
+            </div>
+          </div>
         </nav>
         {/* nav end */}
 
         {/* home */}
-        <div className="text-center rounded-md my-8 py-4 px-3">
-          <h1 className="bg-gradient-to-r from-[#B13892] to-[#4F619D] inline-block text-transparent bg-clip-text font-extrabold mb-4">WHITE HAT DAO</h1>
-          <p className="w-3/4 mx-auto mb-12">Safety and security should be at the heart of all platforms, especially pubic goods services, which is why we are passionate about providing technical support and high level security integration for projects from all blockchains and backgrounds.</p>
-          <a href="#">
-            <Button size="lg" variant="text" color="green" fullWidth>Join the WHD Discussion on Governance / Proposals / Blogposts</Button>
-          </a>
+        <div className="text-center rounded-md mt-32 mb-32 px-3">
+          <h1 className="bg-gradient-to-r from-[#B13892] to-[#4F619D] inline-block text-transparent bg-clip-text font-extrabold text-7xl mb-16">WHITE HAT DAO</h1>
+          <p className="w-3/4 mx-auto text-2xl mb-16">Safety and security should be at the heart of all platforms, especially pubic goods services, which is why we are passionate about providing technical support and high level security integration for projects from all blockchains and backgrounds.</p>
+          <a href="#" className="text-center text-green-800 text-xl hover:underline"> the WHD Discussion on Governance / Proposals / Blogposts</a>
         </div>
         {/* home end */}
 
         {/* tab */}
-        <Block>
-          <Tabs value="dashboard">
-            <TabsHeader>
-              {data.map(({ label, value, icon }) => (
-                <Tab key={value} value={value}>
-                  <div className="flex items-center gap-2">
-                    {React.createElement(icon, { className: "w-5 h-5" })}
-                    {label}
-                  </div>
-                </Tab>
-              ))}
-            </TabsHeader>
-            <TabsBody>
-              {data.map(({ value, desc }) => (
-                <TabPanel key={value} value={value}>
-                  {desc}
-                </TabPanel>
-              ))}
-            </TabsBody>
-          </Tabs>
-        </Block>
+        <div className="mb-32">
+          <div className="flex rounded-lg border-2 border-[#8870e64d] overflow-hidden mb-12">
+            <div className={"w-1/3 flex justify-center items-center gap-2 text-[15px] p-2 text-gray-500 cursor-pointer hover:bg-[#ffffff14] duration-300 border-r border-r-[#8870e64d]" + (tabLabel === 'Imports' ? ' !bg-[#0d0c21]' : '')} onClick={() => setTabLabel('Imports')}>
+              <IconDatabaseImport className="w-5 h-5" />
+              Imports
+            </div>
+            <div className={"w-1/3 flex justify-center items-center gap-2 text-[15px] p-2 text-gray-500 cursor-pointer hover:bg-[#ffffff14] duration-300 border-r border-r-[#8870e64d]" + (tabLabel === 'Contents' ? ' !bg-[#0d0c21]' : '')} onClick={() => setTabLabel('Contents')}>
+              <IconComponents className="w-5 h-5" />
+              Contents
+            </div>
+            <div className={"w-1/3 flex justify-center items-center gap-2 text-[15px] p-2 text-gray-500 cursor-pointer hover:bg-[#ffffff14] duration-300" + (tabLabel === 'Bounties' ? ' !bg-[#0d0c21]' : '')} onClick={() => setTabLabel('Bounties')}>
+              <IconBug className="w-5 h-5" />
+              Bounties
+            </div>
+          </div>
+          {tabContent(tabLabel)}
+        </div>
         {/* tab end */}
 
         {/* service */}
         <Block>
-          <h2 className="text-center font-extrabold mb-8">SERVICES</h2>
+          <h2 className="text-center font-extrabold mb-10">SERVICES</h2>
           <div className="flex gap-8">
             <div className="basis-1/3">
               <ServiceCard />
@@ -186,10 +194,8 @@ const Pages = () => {
         {/* service end */}
 
         {/* top brands */}
-        <Block className="!p-0">
-          <div className="bg-[#39384587] py-3 rounded-t-lg">
-            <h3 className="text-center font-bold">Trusted by top brands</h3>
-          </div>
+        <Block>
+          <h3 className="text-center font-bold">Trusted by top brands</h3>
           <div className="py-10 flex justify-center gap-12 items-center">
             <a href="https://www.layer2dao.org/" target="_blank">
               <img src="/assets/images/brands/Layer2DAO.png" width="75" alt="img" />
@@ -212,7 +218,7 @@ const Pages = () => {
 
         {/* web3 news */}
         <Block>
-          <h1 className="text-center font-extrabold mb-8">Web3 News</h1>
+          <h2 className="text-center font-extrabold mb-10">Web3 News</h2>
           <div className="flex gap-8">
             <div className="basis-1/4">
               <Web3NewsCard />
@@ -233,7 +239,7 @@ const Pages = () => {
         {/* footer */}
         <div className="border-t border-light-blue-800 pb-4">
           <div className="flex items-center my-9">
-            <img src="/img/logo.png" width={52} alt="logo" className="mr-2" />
+            <img src="/assets/images/logo.png" width={52} alt="logo" className="mr-2" />
             <h4 className="font-extrabold">WHITE HAT DAO</h4>
           </div>
           <div className="flex gap-4">

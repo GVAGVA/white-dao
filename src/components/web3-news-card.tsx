@@ -1,14 +1,14 @@
 import { Button } from "@material-tailwind/react"
-import { IconCalendarMonth } from "@tabler/icons-react"
+import { IconCalendarMonth, IconComponents } from "@tabler/icons-react"
 
 const Web3NewsCard = () => {
     return (
-        <div className="rounded-lg bg-gray-800">
+        <div className="rounded-lg bg-[#1c1a2fab] cst-box-shadow">
             <img src="/assets/images/blogs/blog-1.jpeg" alt="service" className="w-full h-64 object-cover rounded-t-lg" />
             <div className="p-5">
                 <div className="flex justify-between mb-3">
                     <div className="flex items-center gap-1">
-                        <img width="25" height="25" src="/assets/images/blogs/coindesk.png" />
+                        <IconComponents />
                         CoinDesk
                     </div>
                     <div className="flex items-center gap-1">

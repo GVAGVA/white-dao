@@ -7,7 +7,7 @@ interface propsType {
 
 export default function Block({ children, className }: propsType) {
     return (
-        <div className={"bg-[#211f3199] mb-28 p-3 rounded-lg " + className}>
+        <div className={"mb-32 " + (className || '')}>
             {children}
         </div>
     )

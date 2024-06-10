@@ -2,7 +2,7 @@ import { Button } from "@material-tailwind/react"
 
 const ServiceCard = () => {
     return (
-        <div className="rounded-md bg-gray-800 text-center p-3">
+        <div className="rounded-md bg-[#1c1a2fab] cst-box-shadow text-center p-3">
             <img src="/assets/images/services/service-1.jpeg" alt="service" className="w-full rounded-md mb-2" />
             <div className="p-2 text-center flex flex-col items-stretch">
                 <h4 className="h-16 text-[#346DA1] font-bold">SAFETY RATING</h4>
