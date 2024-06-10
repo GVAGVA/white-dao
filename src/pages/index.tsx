@@ -124,7 +124,7 @@ const Pages = () => {
       <div className="container mx-auto">
         {/* nav */}
         <nav className="flex items-center">
-          <img src="/assets/images/logo.png" alt="logo" width={48} />
+          <img src="/assets/images/logo.png" alt="logo" width={60} />
           <div className="w-full flex justify-evenly">
             <a href='#' className={"pt-1 block" + (navLinkLabel === 'HOME' ? ' bg-gradient-to-r from-[#FC6856] via-[#6DE79D] to-[#724EE8]' : '')} onClick={() => setNavLinkLabel('HOME')}>
               <span className="block text-lg px-8 py-6 font-semibold bg-[#0A090F]">HOME</span>
