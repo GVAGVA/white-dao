@@ -1,9 +1,10 @@
 import { Button } from "@material-tailwind/react";
-import { IconBrandDiscordFilled, IconBrandGithubFilled, IconBrandTwitterFilled, IconBug, IconComponents, IconCurrencyEthereum, IconDatabaseImport, IconDots, IconSettings } from "@tabler/icons-react";
+import { IconBrandDiscordFilled, IconBrandGithubFilled, IconBrandTwitterFilled, IconBug, IconComponents, IconCurrencyEthereum, IconDatabaseImport, IconSettings } from "@tabler/icons-react";
 import { useState } from "react";
 import ServiceCard from "@/components/service-card";
 import Web3NewsCard from "@/components/web3-news-card";
 import Block from "@/components/block";
+import ConnectWalletBtn from "@/components/connect-wallet-btn";
 
 type navLinkLabelType = 'HOME' | 'DAO GOVERNANCE' | 'AUDIT' | 'GIFT CARDS'
 
@@ -139,12 +140,8 @@ const Pages = () => {
               <span className="block text-lg px-8 py-6 font-semibold bg-[#0A090F]">GIFT CARDS</span>
             </a>
           </div>
-          <div className="mr-1 bg-gradient-to-br from-[#FB7054] via-[#617CDB] to-[#74E79A] p-[2px] opacity-75 hover:opacity-100 cursor-pointer">
-            <div className="bg-[#0A090F] h-min w-max flex gap-2 justify-between items-center py-2 px-3">
-              <IconDots />
-              <p>CONNECT NOW</p>
-            </div>
-          </div>
+          <ConnectWalletBtn />
+          {/* <w3m-button /> */}
         </nav>
         {/* nav end */}
 
