@@ -123,7 +123,7 @@ const Home = () => {
       <nav className="fixed top-0 left-0 w-full flex items-center border-b border-borderColor bg-bgColor z-50">
         <div className="w-[17vw] pl-[2.5vw] flex items-center">
           <img src="/assets/images/logo.webp" alt="logo" width={52} />
-          <span className="ml-4 text-2xl font-bold">DAO</span>
+          <span className="ml-4 text-2xl font-bold">WHD</span>
         </div>
         <div className="w-[66vw] flex items-center border-x border-borderColor">
           <a href='#' className="w-[20.5vw] text-lg py-6 text-center border-r border-borderColor relative">
@@ -244,8 +244,10 @@ const Home = () => {
       </div>
 
       {/* footer */}
-      <div className="w-[95vw] mx-auto">
+      <div className="w-[95vw] mx-auto relative">
         <div className="h-[2vw] w-[91vw] mx-auto border-t border-borderColor" />
+        <div className="h-[2.828vw] w-[1px] bg-borderColor absolute rotate-45 top-[-0.414vw] left-[1vw]" />
+        <div className="h-[2.828vw] w-[1px] bg-borderColor absolute -rotate-45 top-[-0.414vw] right-[1vw]" />
         <div className="py-16 border-x border-borderColor relative">
           <img src="/assets/images/logo.webp" width={48} alt="logo" className="absolute top-14 left-12" />
           <div className="w-[66vw] mx-auto">
