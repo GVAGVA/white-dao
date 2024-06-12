@@ -123,22 +123,31 @@ const Home = () => {
       <nav className="fixed top-0 left-0 w-full flex items-center border-b border-borderColor bg-bgColor z-50">
         <div className="w-[17vw] pl-[2.5vw] flex items-center">
           <img src="/assets/images/logo.webp" alt="logo" width={52} />
-          <span className="ml-4 text-2xl font-bold">WHD</span>
+          <h4 className="ml-4">WHD</h4>
         </div>
         <div className="w-[66vw] flex items-center border-x border-borderColor">
-          <a href='#' className="w-[20.5vw] text-lg py-6 text-center border-r border-borderColor relative">
-            HOME
+          <a href='#' className="w-[20.5vw] text-[16px] py-6 text-center border-r border-borderColor relative">
+            Home
             <div className="absolute top-[-1px] left-0 w-full h-1 bg-gradient-to-r from-[#FC6856] via-[#6DE79D] to-[#724EE8]" />
           </a>
           <div className="w-[79.5vw] flex items-center justify-evenly">
-            <a href='#' className="text-lg py-6 border-b border-transparent hover:border-[#efefef] duration-300">
-              DAO GOVERNANCE
+            <a href='#' className="text-[16px] py-6 border-b border-transparent hover:border-[#efefef] duration-300">
+              DAO Governance
             </a>
-            <a href='#' className="text-lg py-6 border-b border-transparent hover:border-[#efefef] duration-300">
-              AUDIT
+            <a href='#' className="text-[16px] py-6 border-b border-transparent hover:border-[#efefef] duration-300">
+              Audit
             </a>
-            <a href='#' className="text-lg py-6 border-b border-transparent hover:border-[#efefef] duration-300">
-              GIFT CARDS
+            <a href='#' className="text-[16px] py-6 border-b border-transparent hover:border-[#efefef] duration-300">
+              Gift Cards
+            </a>
+            <a href='#' className="text-[16px] py-6 border-b border-transparent hover:border-[#efefef] duration-300">
+              Learn
+            </a>
+            <a href='#' className="text-[16px] py-6 border-b border-transparent hover:border-[#efefef] duration-300">
+              Community
+            </a>
+            <a href='#' className="text-[16px] py-6 border-b border-transparent hover:border-[#efefef] duration-300">
+              Contact Us
             </a>
           </div>
         </div>
@@ -150,10 +159,6 @@ const Home = () => {
       {/* nav end */}
 
       <div className="w-[91.4vw] lg:w-[66vw] mx-auto border-x border-borderColor py-1 relative">
-        {/* divider */}
-        <div className="absolute h-full w-[1px] top-0 left-1/2 bg-borderColor" />
-        {/* divider end */}
-
         {/* home */}
         <div className="text-center rounded-md mt-32 mb-32 px-3">
           <h1 className="bg-gradient-to-r from-[#B13892] to-[#4F619D] inline-block text-transparent bg-clip-text font-extrabold text-7xl mb-16">WHITE HAT DAO</h1>
