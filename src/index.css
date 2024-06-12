@@ -2,19 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Pilat Extended';
-  src: url('/assets/fonts/Manrope/Manrope-VariableFont_wght.ttf') format('truetype');
-}
-
 :root {
-  font-family: Pilat Extended;
+  font-family: Roboto Mono, sans-serif;
   line-height: 1.5;
   font-size: 14px;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.73);
+  background-color: rgb(10, 9, 15);
+  color: rgb(239, 239, 229);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,31 +21,16 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  display: none;
 }
 
 body {
   margin: 0;
-  background-color: #0A090F;
+  background-color: rgb(10, 9, 15);
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: Violetsans, Arial, sans-serif;
   color: white;
 }
 

@@ -8,7 +8,7 @@ const ConnectWalletBtn = () => {
 
   return (
     <span
-      className="inline-block bg-gradient-to-br from-[#FB7054] via-[#617CDB] to-[#74E79A] p-[12px] opacity-75 hover:opacity-100 cursor-pointer duration-200"
+      className="inline-block bg-gradient-to-br from-[#FB7054] via-[#617CDB] to-[#74E79A] p-[12px] cursor-pointer"
       onClick={() => open()}
     >
       <span className="bg-[#0A090F] h-min w-max flex gap-2 justify-between items-center px-2 relative">
