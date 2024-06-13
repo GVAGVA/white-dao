@@ -13,6 +13,10 @@ module.exports = withMT({
       fontFamily: {
         primary: ['Roboto Mono', 'sans-serif'],
         title: ['Violetsans', 'Arial', 'sans-serif'],
+      },
+      opacity: {
+        opacity1: .6,
+        opacity2: .65,
       }
     },
   },

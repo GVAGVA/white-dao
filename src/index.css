@@ -27,9 +27,15 @@
 body {
   margin: 0;
   background-color: rgb(10, 9, 15);
+  overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Violetsans, Arial, sans-serif;
   color: white;
 }
@@ -84,4 +90,18 @@ h5 {
 
 .cst-card-shadow {
   box-shadow: #1c1a2fab 0px 1px 2px, #1c1a2fab 0px 2px 4px, #1c1a2fab 0px 4px 8px, #1c1a2fab 0px 8px 16px, #1c1a2fab 0px 16px 32px, #1c1a2fab 0px 32px 64px;
+}
+
+.cst-link-item-bg,
+.cst-link-item-bg-active {
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.cst-link-item-bg {
+  background-image: url('https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/6549081cc567736a0bc36f46_product-menu-bg.webp');
+}
+
+.cst-link-item-bg-active {
+  background-image: url('https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/654911540c925020ce09ce55_menu-active.webp');
 }
