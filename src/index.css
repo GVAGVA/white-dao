@@ -105,3 +105,10 @@ h5 {
 .cst-link-item-bg-active {
   background-image: url('https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/654911540c925020ce09ce55_menu-active.webp');
 }
+
+.subscribe-btn {
+  background-image: url('https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/644920edd0560b68918741c2_btn-shape.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

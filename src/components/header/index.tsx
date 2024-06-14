@@ -9,7 +9,7 @@ import OurProjects from "./our-projects"
 
 export default function Header() {
     return (
-        <nav className="sticky top-0 left-0 w-full flex items-center border-b border-borderColor bg-bgColor z-50">
+        <nav className="sticky top-0 left-0 w-full flex items-center border-b border-borderColor bg-bgColor z-[9999]">
             <div className="w-[17vw] pl-[4.3vw] lg:pl-[2.2vw] flex items-center">
                 <img src="/assets/images/logo.webp" alt="logo" width={42} />
                 <h4 className="ml-4">WHD</h4>

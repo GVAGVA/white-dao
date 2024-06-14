@@ -9,6 +9,7 @@ module.exports = withMT({
         bgColor: 'rgb(10, 9, 15)',
         textColor: 'rgb(239, 239, 229)',
         borderColor: 'rgb(53, 53, 57)',
+        borderColorThick: 'rgba(239, 239, 229, .25)',
       },
       fontFamily: {
         primary: ['Roboto Mono', 'sans-serif'],

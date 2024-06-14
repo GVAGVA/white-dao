@@ -1,9 +1,10 @@
 import Header from "@/components/header/index";
-import Solutions from "@/components/header/solutions";
+import Solutions from "@/components/home/solutions";
 import AwardedBy from "@/components/home/awarded-by";
 import Intro from "@/components/home/intro";
 import Reviews from "@/components/home/reviews";
 import UnlimitedSolutions from "@/components/home/unlimited-solutions";
+import Footer from "@/components/home/footer";
 
 const Home = () => {
   return (
@@ -32,6 +33,10 @@ const Home = () => {
       <AwardedBy />
 
       <Solutions />
+
+
+
+      <Footer />
 
     </div>
   )
