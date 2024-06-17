@@ -11,6 +11,8 @@ import OurToken from "@/components/home/our-token";
 import Media from "@/components/home/media";
 import Team from "@/components/home/team";
 import Roadmap from "@/components/home/roadmap";
+import Faq from "@/components/home/faq";
+import Join from "@/components/home/join";
 
 const Home = () => {
   return (
@@ -51,6 +53,10 @@ const Home = () => {
       <Team />
 
       <Roadmap />
+
+      <Faq />
+
+      <Join />
 
       <Footer />
 
