@@ -3,8 +3,13 @@ import Solutions from "@/components/home/solutions";
 import AwardedBy from "@/components/home/awarded-by";
 import Intro from "@/components/home/intro";
 import Reviews from "@/components/home/reviews";
-import UnlimitedSolutions from "@/components/home/unlimited-solutions";
 import Footer from "@/components/home/footer";
+import Product from "@/components/home/product";
+import Ecosystem from "@/components/home/ecosystem";
+import AiModel from "@/components/home/ai-model";
+import OurToken from "@/components/home/our-token";
+import Media from "@/components/home/media";
+import Team from "@/components/home/team";
 
 const Home = () => {
   return (
@@ -26,7 +31,7 @@ const Home = () => {
 
       <Intro />
 
-      <UnlimitedSolutions />
+      <Product />
 
       <Reviews />
 
@@ -34,7 +39,15 @@ const Home = () => {
 
       <Solutions />
 
+      <Ecosystem />
 
+      <AiModel />
+
+      <OurToken />
+
+      <Media />
+
+      <Team />
 
       <Footer />
 

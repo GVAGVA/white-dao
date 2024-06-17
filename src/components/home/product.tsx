@@ -1,6 +1,6 @@
 import ContainerBig from "../container-big";
 
-export default function UnlimitedSolutions() {
+export default function Product() {
     return (
         <div className="min-h-[100vh] grid content-between pt-[150px] pb-[20px] border-b border-borderColor">
             <div className="flex h-[100px]">

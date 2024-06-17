@@ -30,6 +30,10 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  vertical-align: middle;
+}
+
 h1,
 h2,
 h3,
