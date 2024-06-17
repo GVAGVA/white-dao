@@ -116,3 +116,8 @@ h5 {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.team-member-outline-bg {
+  background-image: url('https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/64534f12fbd92f3d36a20110_team-shape-2.svg');
+  background-size: 100% 100%;
+}

@@ -10,6 +10,7 @@ import AiModel from "@/components/home/ai-model";
 import OurToken from "@/components/home/our-token";
 import Media from "@/components/home/media";
 import Team from "@/components/home/team";
+import Roadmap from "@/components/home/roadmap";
 
 const Home = () => {
   return (
@@ -48,6 +49,8 @@ const Home = () => {
       <Media />
 
       <Team />
+
+      <Roadmap />
 
       <Footer />
 
