@@ -74,7 +74,7 @@ export default function Intro() {
                     <p className="text-white text-xl mb-4">DECENTRALIZED REVOLUTION</p>
                     <div>
                         <div className="relative mb-2">
-                            <h2 className="pl-5 inline-block">WHTIE HAT</h2>
+                            <h2 className="pl-5 inline-block">WHITE HAT</h2>
                             <div className="absolute top-1/2 -translate-y-1/2 left-0">
                                 <svg viewBox="0 0 440 96" fill="none" xmlns="http://www.w3.org/2000/svg" width="350">
                                     <path className="path-anim path-anim-2" d="M177.5 94H402.257C403.053 94 403.816 93.6839 404.379 93.1213L419 78.5" stroke="url(#paint0_linear_2309_6568)" stroke-width="2.5" stroke-linecap="round"></path>
