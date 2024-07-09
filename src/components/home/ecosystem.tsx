@@ -7,7 +7,7 @@ export default function Ecosystem() {
             <div>
                 <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/646201707951b1100b67ddfd_double-dots.svg" loading="lazy" alt="Robot Eyes" className="h-[4px] ml-2 mb-10" />
                 <div className="text-white">
-                    <h1>
+                    <h2>
                         <span>The </span>
                         <span className="px-4 relative">
                             Ecosystem
@@ -18,8 +18,8 @@ export default function Ecosystem() {
                             <span className="absolute top-0 -translate-y-1/2 left-0 w-[1px] h-[1.414rem] rotate-45 bg-borderColorThick" />
                             <span className="absolute bottom-0 translate-y-1/2 right-0 w-[1px] h-[1.414rem] rotate-45 bg-borderColorThick" />
                         </span>
-                    </h1>
-                    <h1>behind ChainGPT</h1>
+                    </h2>
+                    <h2>behind ChainGPT</h2>
                 </div>
             </div>
             <ContainerSmall>
@@ -32,26 +32,26 @@ export default function Ecosystem() {
                 </div>
                 <div>
                     <div className="flex border-t border-borderColor">
-                        <div className="w-1/2 py-[26px] px-[2.8%] relative text-white">
-                            <h3>AI Models & Tools</h3>
+                        <div className="w-1/2 py-[26px] px-[3.6%] relative text-white">
+                            <h4>AI Models & Tools</h4>
                             <div className="absolute top-0 right-full w-20 h-20 flex justify-center items-center text-xl text-white border border-borderColor">01</div>
                         </div>
-                        <div className="w-1/2 py-[26px] px-[2.8%] text-white text-lg">
+                        <div className="w-1/2 py-[26px] px-[3.6%] text-white text-lg">
                             <p>ChainGPT offers advanced AI models and tools explicitly designed for Web3, Blockchain, and Crypto use cases.</p>
                         </div>
                     </div>
                     <div className="flex border-t border-borderColor">
-                        <div className="w-1/2 py-[26px] px-[2.8%] relative text-white">
-                            <h3>AI Models & Tools</h3>
+                        <div className="w-1/2 py-[26px] px-[3.6%] relative text-white">
+                            <h4>AI Models & Tools</h4>
                             <div className="absolute top-0 right-full w-20 h-20 flex justify-center items-center text-xl text-white border border-borderColor">01</div>
                         </div>
-                        <div className="w-1/2 py-[26px] px-[2.8%] text-white text-lg">
+                        <div className="w-1/2 py-[26px] px-[3.6%] text-white text-lg">
                             <p>ChainGPT offers advanced AI models and tools explicitly designed for Web3, Blockchain, and Crypto use cases.</p>
                         </div>
                     </div>
                     <div className="flex border-t border-borderColor">
-                        <div className="w-1/2 py-[26px] px-[2.8%] relative text-white">
-                            <h3>AI Models & Tools</h3>
+                        <div className="w-1/2 py-[26px] px-[3.6%] relative text-white">
+                            <h4>AI Models & Tools</h4>
                             <div className="absolute top-0 right-full w-20 h-20 flex justify-center items-center text-xl text-white border border-borderColor">01</div>
                             <div className="inline-block">
                                 <Link to='#' className="mt-8 p-6 border border-borderColor text-white text-lg flex items-center gap-4 uppercase hover:opacity-60 duration-200">
@@ -60,13 +60,13 @@ export default function Ecosystem() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="w-1/2 py-[26px] px-[2.8%] text-white text-lg">
+                        <div className="w-1/2 py-[26px] px-[3.6%] text-white text-lg">
                             <p>ChainGPT offers advanced AI models and tools explicitly designed for Web3, Blockchain, and Crypto use cases.</p>
                         </div>
                     </div>
                     <div className="flex border-t border-borderColor">
-                        <div className="w-1/2 py-[26px] px-[2.8%] relative text-white">
-                            <h3>AI Models & Tools</h3>
+                        <div className="w-1/2 py-[26px] px-[3.6%] relative text-white">
+                            <h4>AI Models & Tools</h4>
                             <div className="absolute top-0 right-full w-20 h-20 flex justify-center items-center text-xl text-white border border-borderColor">01</div>
                             <div className="inline-block">
                                 <Link to='#' className="mt-8 p-6 border border-borderColor text-white text-lg flex items-center gap-4 uppercase hover:opacity-60 duration-200">
@@ -75,7 +75,7 @@ export default function Ecosystem() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="w-1/2 py-[26px] px-[2.8%] text-white text-lg">
+                        <div className="w-1/2 py-[26px] px-[3.6%] text-white text-lg">
                             <p>ChainGPT offers advanced AI models and tools explicitly designed for Web3, Blockchain, and Crypto use cases.</p>
                         </div>
                     </div>

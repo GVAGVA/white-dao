@@ -16,30 +16,14 @@ export default function Join() {
                             <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/646201707951b1100b67ddfd_double-dots.svg" loading="lazy" alt="Robot Eyes" className="h-[4px]" />
                             <p className="text-xl">JOIN THE</p>
                         </div>
-                        <div className="flex gap-12">
+                        <div className="flex gap-4">
                             <div className="relative">
-                                <div className="pl-5 text-[80px] leading-[1.2]">AI</div>
-                                <div className="absolute top-1/2 -translate-y-1/2 left-0">
-                                    <svg className="svg-stroke-left" width="116" height="96" viewBox="0 0 116 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path className="path-anim path-anim-left-1 path-anim-delay-8" d="M62 94H19.2426C18.447 94 17.6839 93.6839 17.1213 93.1213L2.87868 78.8787C2.31607 78.3161 2 77.553 2 76.7574V5C2 3.34315 3.33144 2 4.9883 2C12.1553 2 30.7121 2 44 2" stroke="url(#paint0_linear_2353_8410)" stroke-width="2.5" stroke-linecap="round"></path>
-                                        <path className="path-anim path-anim-right-2 path-anim-delay-105" d="M62 94H111C112.657 94 114 92.6569 114 91V19.2426C114 18.447 113.684 17.6839 113.121 17.1213L101.5 5.5" stroke="url(#paint1_linear_2353_8410)" stroke-width="2.5" stroke-linecap="round"></path>
-                                        <defs>
-                                            <linearGradient id="paint0_linear_2353_8410" x1="2" y1="5" x2="123" y2="94" gradientUnits="userSpaceOnUse">
-                                                <stop stop-color="#26F4D0"></stop>
-                                                <stop offset="0.634676" stop-color="#F8CF3E"></stop>
-                                            </linearGradient>
-                                            <linearGradient id="paint1_linear_2353_8410" x1="45" y1="89.5" x2="120" y2="27" gradientUnits="userSpaceOnUse">
-                                                <stop offset="0.436639" stop-color="#F8CF3E"></stop>
-                                                <stop offset="1" stop-color="#FC6756"></stop>
-                                            </linearGradient>
-                                        </defs>
-                                    </svg>
-                                </div>
+                                <h2 className="leading-[1.2]">Decentralized</h2>
                             </div>
                             <div className="relative">
-                                <h1 className="pl-5 text-[80px] leading-[1.2]">Revolution</h1>
+                                <h2 className="pl-5 leading-[1.2]">Revolution</h2>
                                 <div className="absolute top-1/2 -translate-y-1/2 left-0">
-                                    <svg className="svg-stroke-right" width="411" height="96" viewBox="0 0 411 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="svg-stroke-right" width="300" height="96" viewBox="0 0 411 96" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path className="path-anim path-anim-2 path-anim-delay-1-1" d="M263.5 94H18.7426C17.947 94 17.1839 93.6839 16.6213 93.1213L2 78.5" stroke="url(#paint0_linear_2353_8412)" stroke-width="2.5" stroke-linecap="round"></path>
                                         <path className="path-anim path-anim-1 path-anim-delay-95" d="M409 77V19.2426C409 18.447 408.684 17.6839 408.121 17.1213L393.879 2.87868C393.316 2.31607 392.553 2 391.757 2H4" stroke="url(#paint1_linear_2353_8412)" stroke-width="2.5" stroke-linecap="round"></path>
                                         <defs>

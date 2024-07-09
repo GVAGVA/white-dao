@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
-export default function CommunityMenu() {
+export default function SafetyRating() {
     return (
         <div className="relative group/whole">
             <div className="py-8 flex items-center gap-2 cursor-pointer group/item relative">
-                Community
+                Safety Rating
                 <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/64491fa5649dfb767a0c35ee_arrow-down.svg" alt="" />
                 <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-[1px] bg-white group-hover/item:w-full duration-300 z-10" />
             </div>

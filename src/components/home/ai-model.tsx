@@ -7,8 +7,8 @@ export default function AiModel() {
                 <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/646201707951b1100b67ddfd_double-dots.svg" loading="lazy" alt="Robot Eyes" className="h-[4px] ml-2 mb-10" />
                 <div className="flex text-white">
                     <div className="w-1/2">
-                        <h1>Interested in</h1>
-                        <h1>
+                        <h2>Interested in</h2>
+                        <h2>
                             <span>Our </span>
                             <span className="px-4 relative">
                                 AI Model?
@@ -19,7 +19,7 @@ export default function AiModel() {
                                 <span className="absolute top-0 -translate-y-1/2 left-0 w-[1px] h-[1.414rem] rotate-45 bg-borderColorThick" />
                                 <span className="absolute bottom-0 translate-y-1/2 right-0 w-[1px] h-[1.414rem] rotate-45 bg-borderColorThick" />
                             </span>
-                        </h1>
+                        </h2>
                     </div>
                     <div className="w-[20vw] p-4">
                         <p className="text-xl">Unleashing the power of Web3 AI with ChainGPT is just a few steps away.</p>

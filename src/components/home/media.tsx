@@ -5,11 +5,11 @@ export default function Media() {
         <div className="pt-[114px] pb-[76px] px-[2.2vw] lg-max:px-[4.3vw]">
             <div className="pb-28">
                 <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/646201707951b1100b67ddfd_double-dots.svg" loading="lazy" alt="Robot Eyes" className="h-[4px] ml-2 mb-10" />
-                <h1 className="text-[90px] leading-[1.3] text-white">Explore our</h1>
+                <h2>Explore our</h2>
                 <div className="flex">
                     <div className="w-1/2">
                         <div className="flex gap-8 leading-[1]">
-                            <Link to='#' className="text-white text-[70px] p-4 relative">
+                            <Link to='#' className="text-white text-[60px] p-4 relative">
                                 blog
                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute top-0 left-0">
                                     <path d="M1 15V5.41421C1 5.149 1.10536 4.89464 1.29289 4.70711L4.70711 1.29289C4.89464 1.10536 5.149 1 5.41421 1H15" stroke="#EFEFE5"></path>
@@ -24,10 +24,10 @@ export default function Media() {
                                     <path d="M1 15V5.41421C1 5.149 1.10536 4.89464 1.29289 4.70711L4.70711 1.29289C4.89464 1.10536 5.149 1 5.41421 1H15" stroke="#EFEFE5"></path>
                                 </svg>
                             </Link>
-                            <Link to='#' className="text-[70px] p-4 cursor-pointer opacity-60 hover:opacity-100">
+                            <Link to='#' className="text-[60px] p-4 cursor-pointer opacity-60 hover:opacity-100">
                                 vlog
                             </Link>
-                            <Link to='#' className="text-[70px] p-4 cursor-pointer opacity-60 hover:opacity-100">
+                            <Link to='#' className="text-[60px] p-4 cursor-pointer opacity-60 hover:opacity-100">
                                 spaces
                             </Link>
                         </div>

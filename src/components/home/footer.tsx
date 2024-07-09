@@ -13,17 +13,61 @@ export default function Footer() {
                         <img src="/assets/images/logo.webp" alt="" className="w-14" />
                     </div>
                     <div className="w-[66vw]">
-                        <div className="flex justify-between items-center mb-10">
-                            <p className="text-white text-2xl">Subscribe to be in touch*</p>
-                            <p className="text-sm">*Only valuable resources, no bullshit.</p>
-                        </div>
-                        <div className="flex items-center pb-2 border-b border-borderColor mb-12">
-                            <input type="text" className="border-0 p-0 m-0 outline-none text-xl w-full mr-4 bg-transparent" placeholder="Your e-mail" />
-                            <span className="py-4 px-10 text-white text-lg relative cursor-pointer hover:text-opacity-60 duration-200 subscribe-btn">
-                                SUBSCRIBE
+                        <p className="text-white text-xl mb-10">We want to make it easy for everyone to embrace the web3 ecosystem in a secure, decentralized and future-proof way. Join us in this Journey.</p>
+                        <div className="flex justify-between items-center pb-2 border-b border-borderColor mb-4">
+                            <input type="text" className="border-0 p-0 m-0 outline-none text-xl w-[calc(100%-160px)] bg-transparent" placeholder="White Hat DAO LLC" />
+                            <span className="py-1 px-10 text-white text-lg relative cursor-pointer hover:text-opacity-60 duration-200 w-max">
+                                Email Us
+                                <span className="absolute -top-1 left-1 w-full h-[1px] bg-borderColor" />
+                                <span className="absolute bottom-1 -right-1 w-[1px] h-full bg-borderColor" />
+                                <span className="absolute -bottom-1 right-1 w-full h-[1px] bg-borderColor" />
+                                <span className="absolute -bottom-1 -left-1 w-[1px] h-3/4 bg-borderColor" />
+                                <span className="absolute top-0 -translate-y-1/2 left-0 w-[1px] h-[0.707rem] rotate-45 bg-borderColor" />
+                                <span className="absolute bottom-0 translate-y-1/2 right-0 w-[1px] h-[0.707rem] rotate-45 bg-borderColor" />
                             </span>
                         </div>
-                        <div className="flex gap-2 text-lg mb-10">
+                        <div className="flex justify-between items-center mb-12 ">
+                            <div className="flex gap-6 flex-wrap pl-1">
+                                <span className="py-1 px-10 text-white text-lg relative cursor-pointer hover:text-opacity-60 duration-200 inline-block">
+                                    DAO Gov
+                                    <span className="absolute -top-1 left-1 w-full h-[1px] bg-borderColor" />
+                                    <span className="absolute bottom-1 -right-1 w-[1px] h-full bg-borderColor" />
+                                    <span className="absolute -bottom-1 right-1 w-full h-[1px] bg-borderColor" />
+                                    <span className="absolute -bottom-1 -left-1 w-[1px] h-3/4 bg-borderColor" />
+                                    <span className="absolute top-0 -translate-y-1/2 left-0 w-[1px] h-[0.707rem] rotate-45 bg-borderColor" />
+                                    <span className="absolute bottom-0 translate-y-1/2 right-0 w-[1px] h-[0.707rem] rotate-45 bg-borderColor" />
+                                </span>
+                                <span className="py-1 px-10 text-white text-lg relative cursor-pointer hover:text-opacity-60 duration-200 inline-block">
+                                    Github
+                                    <span className="absolute -top-1 left-1 w-full h-[1px] bg-borderColor" />
+                                    <span className="absolute bottom-1 -right-1 w-[1px] h-full bg-borderColor" />
+                                    <span className="absolute -bottom-1 right-1 w-full h-[1px] bg-borderColor" />
+                                    <span className="absolute -bottom-1 -left-1 w-[1px] h-3/4 bg-borderColor" />
+                                    <span className="absolute top-0 -translate-y-1/2 left-0 w-[1px] h-[0.707rem] rotate-45 bg-borderColor" />
+                                    <span className="absolute bottom-0 translate-y-1/2 right-0 w-[1px] h-[0.707rem] rotate-45 bg-borderColor" />
+                                </span>
+                                <span className="py-1 px-10 text-white text-lg relative cursor-pointer hover:text-opacity-60 duration-200 inline-block">
+                                    Hire Us
+                                    <span className="absolute -top-1 left-1 w-full h-[1px] bg-borderColor" />
+                                    <span className="absolute bottom-1 -right-1 w-[1px] h-full bg-borderColor" />
+                                    <span className="absolute -bottom-1 right-1 w-full h-[1px] bg-borderColor" />
+                                    <span className="absolute -bottom-1 -left-1 w-[1px] h-3/4 bg-borderColor" />
+                                    <span className="absolute top-0 -translate-y-1/2 left-0 w-[1px] h-[0.707rem] rotate-45 bg-borderColor" />
+                                    <span className="absolute bottom-0 translate-y-1/2 right-0 w-[1px] h-[0.707rem] rotate-45 bg-borderColor" />
+                                </span>
+                                <span className="py-1 px-10 text-white text-lg relative cursor-pointer hover:text-opacity-60 duration-200 inline-block">
+                                    Apply as Dev
+                                    <span className="absolute -top-1 left-1 w-full h-[1px] bg-borderColor" />
+                                    <span className="absolute bottom-1 -right-1 w-[1px] h-full bg-borderColor" />
+                                    <span className="absolute -bottom-1 right-1 w-full h-[1px] bg-borderColor" />
+                                    <span className="absolute -bottom-1 -left-1 w-[1px] h-3/4 bg-borderColor" />
+                                    <span className="absolute top-0 -translate-y-1/2 left-0 w-[1px] h-[0.707rem] rotate-45 bg-borderColor" />
+                                    <span className="absolute bottom-0 translate-y-1/2 right-0 w-[1px] h-[0.707rem] rotate-45 bg-borderColor" />
+                                </span>
+                            </div>
+                            <span>Social Logos</span>
+                        </div>
+                        {/* <div className="flex gap-2 text-lg mb-10">
                             <div className="w-1/4 flex flex-col gap-6">
                                 <p className="opacity-50">AI SOLUTIONS</p>
                                 <p>ChainGPT Chat Bot</p>
@@ -98,7 +142,7 @@ export default function Footer() {
                             <a href="https://www.producthunt.com/posts/chaingpt?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-chaingpt" target="_blank" rel="noopener noreferrer nofollow">
                                 <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=378970&amp;theme=dark" alt="ChainGPT - Unleash the power of Blockchain AI with ChainGPT | Product Hunt" width="205" height="44" />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="flex text-[12px] opacity-70">

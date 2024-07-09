@@ -36,23 +36,23 @@ const Home = () => {
 
       <Product />
 
-      <Reviews />
+      {/* <Reviews /> */}
 
-      <AwardedBy />
+      {/* <AwardedBy /> */}
 
       <Solutions />
 
-      <Ecosystem />
+      {/* <Ecosystem /> */}
 
-      <AiModel />
+      {/* <AiModel /> */}
 
       <OurToken />
 
-      <Media />
-
-      <Team />
+      {/* <Media /> */}
 
       <Roadmap />
+
+      <Team />
 
       <Faq />
 
