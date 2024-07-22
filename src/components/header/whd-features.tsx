@@ -14,20 +14,20 @@ export default function WHDFeatures() {
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#FC6856] via-[#6DE79D] to-[#724EE8]" />
             </div>
             <div className="absolute top-full left-0 p-2 border border-borderColor bg-bgColor hidden group-hover/whole:block">
-                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full px-3 py-4 cst-link-item-bg-active mb-3" >
-                    <div className="flex items-center justify-between mb-4">
+                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full p-2 cst-link-item-bg mb-3 opacity-60 hover:opacity-100 duration-150" >
+                    <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center mr-3">
                             <img src="/assets/images/logo.webp" alt="" className="mr-1" width={32} height={32} />
                             <p className="text-xl">
                                 AI Security Audit
                             </p>
                         </div>
-                        <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/65490b8aafd57d8ec5c22b86_selected-indicator.svg" loading="lazy" alt="Simple Link Arrow Icon" className="w-3" />
+                        <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/645e3d7ca7fd751544d4e7e8_icon-link-arrow-simple.svg" loading="lazy" alt="Simple Link Arrow Icon" className="w-3" />
                     </div>
                     <p className="text-[11.7px]">Coming Soon</p>
                 </Link>
-                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full px-3 py-4 cst-link-item-bg mb-3 opacity-60 hover:opacity-100 duration-150" >
-                    <div className="flex items-center justify-between mb-4">
+                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full p-2 cst-link-item-bg mb-3 opacity-60 hover:opacity-100 duration-150" >
+                    <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center mr-3">
                             <img src="/assets/images/logo.webp" alt="" className="mr-1" width={32} height={32} />
                             <p className="text-xl">
@@ -38,8 +38,8 @@ export default function WHDFeatures() {
                     </div>
                     <p className="text-[11.7px]">Coming Soon</p>
                 </Link>
-                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full px-3 py-4 cst-link-item-bg mb-3 opacity-60 hover:opacity-100 duration-150" >
-                    <div className="flex items-center justify-between mb-4">
+                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full p-2 cst-link-item-bg mb-3 opacity-60 hover:opacity-100 duration-150" >
+                    <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center mr-3">
                             <img src="/assets/images/logo.webp" alt="" className="mr-1" width={32} height={32} />
                             <p className="text-xl">
@@ -50,8 +50,8 @@ export default function WHDFeatures() {
                     </div>
                     <p className="text-[11.7px]">Coming Soon</p>
                 </Link>
-                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full px-3 py-4 cst-link-item-bg mb-3 opacity-60 hover:opacity-100 duration-150" >
-                    <div className="flex items-center justify-between mb-4">
+                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full p-2 cst-link-item-bg mb-3 opacity-60 hover:opacity-100 duration-150" >
+                    <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center mr-3">
                             <img src="/assets/images/logo.webp" alt="" className="mr-1" width={32} height={32} />
                             <p className="text-xl">
@@ -62,8 +62,8 @@ export default function WHDFeatures() {
                     </div>
                     <p className="text-[11.7px]">Coming Soon</p>
                 </Link>
-                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full px-3 py-4 cst-link-item-bg mb-3 opacity-60 hover:opacity-100 duration-150" >
-                    <div className="flex items-center justify-between mb-4">
+                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full p-2 cst-link-item-bg mb-3 opacity-60 hover:opacity-100 duration-150" >
+                    <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center mr-3">
                             <img src="/assets/images/logo.webp" alt="" className="mr-1" width={32} height={32} />
                             <p className="text-xl">
@@ -74,8 +74,8 @@ export default function WHDFeatures() {
                     </div>
                     <p className="text-[11.7px]">Coming Soon</p>
                 </Link>
-                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full px-3 py-4 cst-link-item-bg opacity-60 hover:opacity-100 duration-150" >
-                    <div className="flex items-center justify-between mb-4">
+                <Link rel="noopener noreferrer" to="/" target="_blank" className="inline-block w-full p-2 cst-link-item-bg opacity-60 hover:opacity-100 duration-150" >
+                    <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center mr-3">
                             <img src="/assets/images/logo.webp" alt="" className="mr-1" width={32} height={32} />
                             <p className="text-xl">

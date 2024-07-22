@@ -13,7 +13,7 @@ export default function Header() {
         <nav className="sticky top-0 left-0 w-full flex items-center border-b border-borderColor bg-bgColor z-[9999]">
             <div className="w-[17vw] pl-[4.3vw] lg:pl-[2.2vw] flex items-center select-none">
                 <Link to='/' className="flex items-center cursor-pointer">
-                    <img src="/assets/images/logo.png" alt="logo" width={64} />
+                    <img src="/assets/images/logo.webp" alt="logo" width={52} />
                     <h4 className="ml-4">WHD</h4>
                 </Link>
             </div>

@@ -6,7 +6,7 @@ export default function Intro() {
     return (
         <ContainerBig>
             <ContainerSmall className="relative">
-                <div className="pt-52 pb-60 flex items-stretch">
+                <div className="py-32 flex items-stretch">
                     <div className="w-1/2 text-lg relative">
                         <div className="absolute bottom-full left-0 border border-b-0 border-white w-[66px] h-[66px] flex justify-center items-center">
                             <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/643550c922d6d37de6ffd28c_ico-quote.svg" loading="lazy" width="20" height="16" alt="" />
@@ -77,17 +77,17 @@ export default function Intro() {
                             <h2 className="pl-5 inline-block">WHITE HAT</h2>
                             <div className="absolute top-1/2 -translate-y-1/2 left-0">
                                 <svg viewBox="0 0 440 96" fill="none" xmlns="http://www.w3.org/2000/svg" width="350">
-                                    <path className="path-anim path-anim-2" d="M177.5 94H402.257C403.053 94 403.816 93.6839 404.379 93.1213L419 78.5" stroke="url(#paint0_linear_2309_6568)" stroke-width="2.5" stroke-linecap="round"></path>
-                                    <path className="path-anim path-anim-1" d="M2 77V19.2426C2 18.447 2.31607 17.6839 2.87868 17.1213L17.1213 2.87868C17.6839 2.31607 18.447 2 19.2426 2H417" stroke="url(#paint1_linear_2309_6568)" stroke-width="2.5" stroke-linecap="round"></path>
+                                    <path className="path-anim path-anim-2" d="M177.5 94H402.257C403.053 94 403.816 93.6839 404.379 93.1213L419 78.5" stroke="rgb(200, 200, 200)" strokeWidth="2.5" strokeLinecap="round"></path>
+                                    <path className="path-anim path-anim-1" d="M2 77V19.2426C2 18.447 2.31607 17.6839 2.87868 17.1213L17.1213 2.87868C17.6839 2.31607 18.447 2 19.2426 2H417" stroke="rgb(200, 200, 200)" strokeWidth="2.5" strokeLinecap="round"></path>
                                     <defs>
                                         <linearGradient id="paint0_linear_2309_6568" x1="67.5" y1="101" x2="428.5" y2="75" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#F8CF3E"></stop>
-                                            <stop offset="1" stop-color="#FC6756"></stop>
-                                            <stop offset="1" stop-color="#FC6756"></stop>
+                                            <stop stopColor="#F8CF3E"></stop>
+                                            <stop offset="1" stopColor="#FC6756"></stop>
+                                            <stop offset="1" stopColor="#FC6756"></stop>
                                         </linearGradient>
                                         <linearGradient id="paint1_linear_2309_6568" x1="416.5" y1="-9.50001" x2="25.7657" y2="-140.863" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0.236372" stop-color="#724CE8"></stop>
-                                            <stop offset="1" stop-color="#26F4D0"></stop>
+                                            <stop offset="0.236372" stopColor="#724CE8"></stop>
+                                            <stop offset="1" stopColor="#26F4D0"></stop>
                                         </linearGradient>
                                     </defs>
                                 </svg>
@@ -98,16 +98,16 @@ export default function Intro() {
                             <h2 className="pl-5 inline-block">DAO</h2>
                             <div className="absolute top-1/2 -translate-y-1/2 left-0">
                                 <svg width="150" viewBox="0 0 220 88" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path className="path-anim path-anim-left" d="M2 2V68.7574C2 69.553 2.31607 70.3161 2.87868 70.8787L17.1213 85.1213C17.6839 85.6839 18.447 86 19.2426 86H110" stroke="url(#paint0_linear_2309_6569)" stroke-width="2.5" stroke-linecap="round"></path>
-                                    <path className="path-anim path-anim-right" d="M110 86H220C219.657 86 219 84.6569 219 83V15.2426C219 14.447 219.684 13.6839 219.121 13.1213L207.5 1.5" stroke="url(#paint1_linear_2309_6569)" stroke-width="2.5" stroke-linecap="round"></path>
+                                    <path className="path-anim path-anim-left" d="M2 2V68.7574C2 69.553 2.31607 70.3161 2.87868 70.8787L17.1213 85.1213C17.6839 85.6839 18.447 86 19.2426 86H110" stroke="rgb(200, 200, 200)" strokeWidth="2.5" strokeLinecap="round"></path>
+                                    <path className="path-anim path-anim-right" d="M110 86H220C219.657 86 219 84.6569 219 83V15.2426C219 14.447 219.684 13.6839 219.121 13.1213L207.5 1.5" stroke="rgb(200, 200, 200)" strokeWidth="2.5" strokeLinecap="round"></path>
                                     <defs>
                                         <linearGradient id="paint0_linear_2309_6569" x1="1.5" y1="-1.3292e-06" x2="123" y2="86" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#26F4D0"></stop>
-                                            <stop offset="0.634676" stop-color="#F8CF3E"></stop>
+                                            <stop stopColor="#26F4D0"></stop>
+                                            <stop offset="0.634676" stopColor="#F8CF3E"></stop>
                                         </linearGradient>
                                         <linearGradient id="paint1_linear_2309_6569" x1="45" y1="81.5" x2="119" y2="24" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0.436639" stop-color="#F8CF3E"></stop>
-                                            <stop offset="1" stop-color="#FC6756"></stop>
+                                            <stop offset="0.436639" stopColor="#F8CF3E"></stop>
+                                            <stop offset="1" stopColor="#FC6756"></stop>
                                         </linearGradient>
                                     </defs>
                                 </svg>
@@ -118,9 +118,7 @@ export default function Intro() {
             </div>
             <ContainerSmall className="flex">
                 <div className="w-1/2 pt-48 px-4">
-                    <p className="mb-3">White Hat DAO is a decentralized autonomous organization. Governed by a clear set of rules and executes actions automatically.</p>
-                    <p className="mb-3">Thus, effectively disregarding intermediaries. White Hat DAO controlled by Governance token holders. It does not have any employees.</p>
-                    <p className="mb-3">Any individuals, DAO members or development teams can propose any proposals draft via discord or community forum. Once submitted in Snapshot, the token holders will vote on whether to approve or reject these proposals.</p>
+                    <p className="mb-3">White Hat DAO is a decentralized autonomous organization. Governed by a clear set of rules and executes actions automatically. Thus, effectively disregarding intermediaries. WHD governed by Governance token holders. It does not have any employees. DAO Governors may introduce proposals via community forum. Once submitted, the DAO members & governance guilds will debate on the validity / legitimacy of the proposal, if passed the initial due diligence,  the proposal will be sent to onchain for final voting round. The token holders will vote on whether to approve or reject any proposals.</p>
 
                     <div className="mt-12 mb-8 rounded border border-gray-500 p-4 bg-[#0F0F14]">
                         <div className="flex justify-between items-center mb-3">
@@ -146,7 +144,28 @@ export default function Intro() {
                     </div>
                 </div>
                 <div className="w-1/2">
-                    <img src="/assets/images/what_shield_3-1_480.png" className="w-2/3 xl:w-1/2 m-auto mt-12" alt="" />
+                    <div className="w-2/3 xl:w-1/2 m-auto mt-12 py-8 px-6 relative">
+                        <img src="/assets/images/intro_remove_corners.png" className="rounded-[5%]" alt="" />
+                        <svg viewBox="0 0 420 96" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full absolute top-0 left-0">
+                            <path className="path-anim path-anim-1" d="M2 55V19.2426C2 18.447 2.31607 17.6839 2.87868 17.1213L17.1213 2.87868C17.6839 2.31607 18.447 2 19.2426 2H417" stroke="url(#paint1_linear_2309_6568)" strokeWidth="2.5" strokeLinecap="round"></path>
+                            <defs>
+                                <linearGradient id="paint1_linear_2309_6568" x1="416.5" y1="-9.50001" x2="25.7657" y2="-140.863" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.236372" stopColor="#724CE8"></stop>
+                                    <stop offset="1" stopColor="#26F4D0"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <svg viewBox="0 0 420 96" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full absolute bottom-0 left-0">
+                            <path className="path-anim path-anim-2" d="M80.5 94H402.257C403.053 94 403.816 93.6839 404.379 93.1213L419 78.5" stroke="url(#paint0_linear_2309_6568)" strokeWidth="2.5" strokeLinecap="round"></path>
+                            <defs>
+                                <linearGradient id="paint0_linear_2309_6568" x1="67.5" y1="101" x2="428.5" y2="75" gradientUnits="userSpaceOnUse">
+                                    <stop stopColor="#F8CF3E"></stop>
+                                    <stop offset="1" stopColor="#FC6756"></stop>
+                                    <stop offset="1" stopColor="#FC6756"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
                 </div>
             </ContainerSmall>
         </ContainerBig>

@@ -8,10 +8,10 @@ const ConnectWalletBtn = () => {
 
   return (
     <span
-      className="inline-block bg-gradient-to-br from-[#FB7054] via-[#617CDB] to-[#74E79A] p-[12px] cursor-pointer"
+      className="inline-block p-[8px] cursor-pointer relative"
       onClick={() => open()}
     >
-      <span className="bg-[#0A090F] h-min w-max flex gap-2 justify-between items-center px-2 relative">
+      <span className="bg-[#0A090F] h-min w-max flex gap-2 justify-between items-center px-2">
         {isConnecting ? (
           <>
             <IconLoader2 className="animate-spin" />
@@ -25,30 +25,13 @@ const ConnectWalletBtn = () => {
             <p>CONNECT NOW</p>
           </>
         )}
-
-        {/* fill backcolor basic */}
-        <span className="absolute bottom-[100%] left-0 w-[100%] h-[10px] bg-[#0A090F]"></span>
-        <span className="absolute top-[100%] left-0 w-[100%] h-[10px] bg-[#0A090F]"></span>
-        <span className="absolute left-[100%] top-0 h-[100%] w-[10px] bg-[#0A090F]"></span>
-        <span className="absolute right-[100%] top-0 h-[100%] w-[10px] bg-[#0A090F]"></span>
-
-        {/* fill backcolor top left corner */}
-        <span className="absolute left-[-7px] top-[-7px] rotate-45 h-[13.5px] w-[13.5px] bg-[#0A090F]"></span>
-        <span className="absolute left-[-19px] top-[-19px] rotate-45 h-[14px] w-[14px] bg-[#0A090F]"></span>
-
-        {/* fill backcolor top right corner */}
-        <span className="absolute left-[100%] bottom-[100%] h-[10px] w-[10px] bg-[#0A090F]"></span>
-
-        {/* fill backcolor bottom right corner */}
-        <span className="absolute right-[-6.5px] bottom-[-6.5px] rotate-45 h-[13.5px] w-[13.5px] bg-[#0A090F]"></span>
-        <span className="absolute right-[-19px] bottom-[-19px] rotate-45 h-[14px] w-[14px] bg-[#0A090F]"></span>
-
-        {/* fill backcolor bottom left corner */}
-        <span className="absolute right-[100%] top-[100%] h-[10px] w-[10px] bg-[#0A090F]"></span>
-
-        {/* break left border */}
-        <span className="absolute left-[-12px] top-[-2px] h-[12px] w-[4px] bg-[#0A090F]"></span>
       </span>
+      <span className="bg-white w-full h-[1px] absolute top-[-4px] left-[4px]" />
+      <span className="bg-white h-full w-[1px] absolute bottom-[4px] right-[-4px]" />
+      <span className="bg-white w-full h-[1px] absolute bottom-[-4px] right-[4px]" />
+      <span className="bg-white h-[70%] w-[1px] absolute bottom-[-4px] left-[-4px]" />
+      <span className="bg-white h-[11.312px] w-[1px] absolute bottom-[-5.3px] right-0 rotate-45" />
+      <span className="bg-white h-[11.312px] w-[1px] absolute top-[-5.3px] left-0 rotate-45" />
     </span>
   )
 }

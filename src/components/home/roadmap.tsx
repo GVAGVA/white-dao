@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Roadmap() {
     return (
-        <div className="pt-[114px] pb-[76px] px-[2.2vw] lg-max:px-[4.3vw]">
-            <div className="pb-28">
+        <div className="pt-[80px] px-[2.2vw] lg-max:px-[4.3vw]">
+            <div className="pb-16">
                 <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/646201707951b1100b67ddfd_double-dots.svg" loading="lazy" alt="Robot Eyes" className="h-[4px] ml-2 mb-10" />
                 <div className="flex text-white">
                     <div className="w-1/2">
@@ -11,26 +11,18 @@ export default function Roadmap() {
                         <h2>
                             <span className="px-4 mr-6 relative">
                                 Roadmap
-                                <span className="absolute -top-2 left-2 w-full h-[1px] bg-borderColorThick" />
-                                <span className="absolute bottom-2 -right-2 w-[1px] h-full bg-borderColorThick" />
-                                <span className="absolute -bottom-2 right-2 w-full h-[1px] bg-borderColorThick" />
-                                <span className="absolute top-2 -left-2 w-[1px] h-full bg-borderColorThick" />
-                                <span className="absolute top-0 -translate-y-1/2 left-0 w-[1px] h-[1.414rem] rotate-45 bg-borderColorThick" />
-                                <span className="absolute bottom-0 translate-y-1/2 right-0 w-[1px] h-[1.414rem] rotate-45 bg-borderColorThick" />
+                                <span className="absolute -top-2 left-2 w-full h-[1px] bg-gray-500" />
+                                <span className="absolute bottom-2 -right-2 w-[1px] h-full bg-gray-500" />
+                                <span className="absolute -bottom-2 right-2 w-full h-[1px] bg-gray-500" />
+                                <span className="absolute top-2 -left-2 w-[1px] h-full bg-gray-500" />
+                                <span className="absolute top-0 -translate-y-1/2 left-0 w-[1px] h-[1.414rem] rotate-45 bg-gray-500" />
+                                <span className="absolute bottom-0 translate-y-1/2 right-0 w-[1px] h-[1.414rem] rotate-45 bg-gray-500" />
                             </span>
                         </h2>
                     </div>
-                    <div className="w-[30vw] px-6 py-4">
-                        <p className="text-2xl">
-                            This is a short version of our roadmap.
-                            <br />
-                            Read full version{' '}
-                            <Link to='#' className="underline hover:no-underline">here</Link>
-                        </p>
-                    </div>
                 </div>
             </div>
-            <div className="w-[33vw] ml-[14.8vw] mb-32 relative">
+            <div className="w-[33vw] ml-[14.8vw] relative">
                 {/* <div className="absolute top-0 right-full w-[14.8vw] flex gap-4">
                     <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/6446951576624313547bb1bd_arrow-next.svg" className="w-[64px] h-[64px] cursor-pointer hover:opacity-70 duration-150 rotate-180" alt="" />
                     <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/6446951576624313547bb1bd_arrow-next.svg" className="w-[64px] h-[64px] cursor-pointer hover:opacity-70 duration-150" alt="" />

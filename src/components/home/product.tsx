@@ -1,41 +1,45 @@
+import Slider from "../ui/slider";
+
+const content = [
+    <div className="w-[33vw] border border-white flex text-xl">
+        <div className="w-[80px] h-[78px] flex justify-center items-center border-r border-white">01</div>
+        <div className="w-[calc(100%-80px)] h-[78px] flex justify-center items-center">Decentralized Governance</div>
+    </div>,
+    <div className="w-[33vw] border border-white flex text-xl">
+        <div className="w-[80px] h-[78px] flex justify-center items-center border-r border-white">02</div>
+        <div className="w-[calc(100%-80px)] h-[78px] flex justify-center items-center">AI Security Audit</div>
+    </div>,
+    <div className="w-[33vw] border border-white flex text-xl">
+        <div className="w-[80px] h-[78px] flex justify-center items-center border-r border-white">03</div>
+        <div className="w-[calc(100%-80px)] h-[78px] flex justify-center items-center">Safety Rating</div>
+    </div>,
+    <div className="w-[33vw] border border-white flex text-xl">
+        <div className="w-[80px] h-[78px] flex justify-center items-center border-r border-white">04</div>
+        <div className="w-[calc(100%-80px)] h-[78px] flex justify-center items-center">Decentralized Launchpad</div>
+    </div>,
+    <div className="w-[33vw] border border-white flex text-xl">
+        <div className="w-[80px] h-[78px] flex justify-center items-center border-r border-white">05</div>
+        <div className="w-[calc(100%-80px)] h-[78px] flex justify-center items-center">Development & Growth</div>
+    </div>,
+    <div className="w-[33vw] border border-white flex text-xl">
+        <div className="w-[80px] h-[78px] flex justify-center items-center border-r border-white">06</div>
+        <div className="w-[calc(100%-80px)] h-[78px] flex justify-center items-center">Building Partnership & Cooperation</div>
+    </div>
+]
+
 export default function Product() {
     return (
-        <div className="pt-20 pb-[20px]">
-            <div className="flex h-[100px]">
-                <div className="w-[17vw] h-full" />
+        <div className="pt-4">
+            <div className="flex h-[80px]">
+                <div className="w-[17vw] h-full bg-[#0a090f] z-10 relative" />
                 <div className="w-[33vw] flex relative">
-                    <div className="absolute top-0 left-0 flex">
-                        <div className="w-[33vw] border border-white text-white flex text-xl">
-                            <div className="w-1/5 h-[100px] flex justify-center items-center border-r border-white">01</div>
-                            <div className="w-4/5 h-[100px] flex justify-center items-center">Decentralized Governance</div>
-                        </div>
-                        <div className="w-[33vw] border border-borderColor flex text-xl">
-                            <div className="w-1/5 h-[100px] flex justify-center items-center opacity-40 border-r border-borderColor">02</div>
-                            <div className="w-4/5 h-[100px] flex justify-center items-center opacity-40">AI Security Audit</div>
-                        </div>
-                        <div className="w-[33vw] border border-borderColor flex text-xl">
-                            <div className="w-1/5 h-[100px] flex justify-center items-center opacity-40 border-r border-borderColor">03</div>
-                            <div className="w-4/5 h-[100px] flex justify-center items-center opacity-40">Safety Rating</div>
-                        </div>
-                        <div className="w-[33vw] border border-borderColor flex text-xl">
-                            <div className="w-1/5 h-[100px] flex justify-center items-center opacity-40 border-r border-borderColor">04</div>
-                            <div className="w-4/5 h-[100px] flex justify-center items-center opacity-40">Decentralized Launchpad</div>
-                        </div>
-                        <div className="w-[33vw] border border-borderColor flex text-xl">
-                            <div className="w-1/5 h-[100px] flex justify-center items-center opacity-40 border-r border-borderColor">05</div>
-                            <div className="w-4/5 h-[100px] flex justify-center items-center opacity-40">Development & Growth</div>
-                        </div>
-                        <div className="w-[33vw] border border-borderColor flex text-xl">
-                            <div className="w-1/5 h-[100px] flex justify-center items-center opacity-40 border-r border-borderColor">06</div>
-                            <div className="w-4/5 h-[100px] flex justify-center items-center opacity-40">Building Partnership & Cooperation</div>
-                        </div>
-                    </div>
+                    <Slider content={content} duration={5000} />
                     <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/643550c922d6d34b8dffd28d_corner.svg" loading="lazy" alt="" className="absolute bottom-full right-full translate-x-[-7px]" />
                     <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/643550c922d6d34b8dffd28d_corner.svg" loading="lazy" alt="" className="absolute bottom-full left-full translate-x-[7px] rotate-90" />
                     <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/643550c922d6d34b8dffd28d_corner.svg" loading="lazy" alt="" className="absolute top-full left-full translate-x-[7px] rotate-180" />
                     <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/643550c922d6d34b8dffd28d_corner.svg" loading="lazy" alt="" className="absolute top-full right-full translate-x-[-7px] -rotate-90" />
                 </div>
-                <div className="w-[50vw] h-full" />
+                <div className="w-[50vw] h-full bg-[#0a090faa] z-10 relative" />
             </div>
             {/* <ContainerBig className="pt-12 flex justify-between items-end">
                 <div>

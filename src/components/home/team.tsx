@@ -1,22 +1,129 @@
 import { Link } from "react-router-dom";
 import ContainerSmall from "../container-small";
+import Slider from "../ui/slider";
+import { useState } from "react";
+
+const content = [
+    <div className="w-[33vw] p-6">
+        <div className="rounded border border-borderColor p-4">
+            <div className="flex mb-4">
+                <div className="rounded border border-borderColor p-2 mr-4">
+                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
+                </div>
+                <div className="h-full grid items-stretch">
+                    <h5 className="mb-10">Matt Lopez</h5>
+                    <div className="mb-8 text-lg">
+                        <p>DAO Governer</p>
+                        <p>[ Elective ]</p>
+                    </div>
+                    <div className="text-lg">
+                        <p>Member of Elder Council</p>
+                        <p>[ Selective ]</p>
+                    </div>
+                </div>
+            </div>
+            <div className="rounded border border-borderColor p-4">
+                "Everyone wants to sit on the dinner table and enjoy the food but nobody is willing to cook. We are cooking so come join us."
+            </div>
+        </div>
+    </div>,
+    <div className="w-[33vw] p-6">
+        <div className="rounded border border-borderColor p-4">
+            <div className="flex mb-4">
+                <div className="rounded border border-borderColor p-2 mr-4">
+                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
+                </div>
+                <div className="h-full grid items-stretch">
+                    <h5 className="mb-10">Angela Stefan</h5>
+                    <div className="mb-8 text-lg">
+                        <p>DAO Governer</p>
+                        <p>[ Elective ]</p>
+                    </div>
+                    <div className="text-lg">
+                        <p>Member of Dev Team</p>
+                        <p>[ Selective ]</p>
+                    </div>
+                </div>
+            </div>
+            <div className="rounded border border-borderColor p-4">
+                “Invest for the long haul. Don't get too greedy and don't get too scared”
+            </div>
+        </div>
+    </div>,
+    <div className="w-[33vw] p-6">
+        <div className="rounded border border-borderColor p-4">
+            <div className="flex mb-4">
+                <div className="rounded border border-borderColor p-2 mr-4">
+                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
+                </div>
+                <div className="h-full grid items-stretch">
+                    <h5 className="mb-10">Lelouch X</h5>
+                    <div className="mb-8 text-lg">
+                        <p>DAO Governer</p>
+                        <p>[ Elective ]</p>
+                    </div>
+                    <div className="text-lg">
+                        <p>Office of Augustus</p>
+                        <p>[ Selective ]</p>
+                    </div>
+                </div>
+            </div>
+            <div className="rounded border border-borderColor p-4">
+                “We are Decentralized ! So long our ideas converges towards the same path of standing together for common benefit”
+            </div>
+        </div>
+    </div>,
+    <div className="w-[33vw] p-6">
+        <div className="rounded border border-borderColor p-4">
+            <div className="flex mb-4">
+                <div className="rounded border border-borderColor p-2 mr-4">
+                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
+                </div>
+                <div className="h-full grid items-stretch">
+                    <h5 className="mb-10">Itsuki Minomoto</h5>
+                    <div className="mb-8 text-lg">
+                        <p>Member of DAO Senate</p>
+                        <p>[ Elective ]</p>
+                    </div>
+                    <div className="text-lg">
+                        <p>Member of Elder Council</p>
+                        <p>[ Selective ]</p>
+                    </div>
+                </div>
+            </div>
+            <div className="rounded border border-borderColor p-4">
+                “Invest for the long haul. Don't get too greedy and don't get too scared”
+            </div>
+        </div>
+    </div>
+]
 
 export default function Team() {
+    const [num, setNum] = useState<number>(0)
+
+    const onClickPre = () => {
+        num && setNum(num - 1)
+    }
+
+    const onClickNext = () => {
+        num < 4 && setNum(num + 1)
+    }
+
     return (
-        <div className="pt-[114px] pb-[76px] px-[2.2vw] lg-max:px-[4.3vw]">
-            <div className="pb-28">
+        <div className="pt-[80px] px-[2.2vw] lg-max:px-[4.3vw]">
+            <div className="pb-8">
                 <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/646201707951b1100b67ddfd_double-dots.svg" loading="lazy" alt="Robot Eyes" className="h-[4px] ml-2 mb-10" />
                 <div className="flex text-white">
                     <div className="w-1/2">
                         <h2>
                             <span className="px-4 mr-6 relative">
                                 DAO
-                                <span className="absolute -top-2 left-2 w-full h-[1px] bg-borderColorThick" />
-                                <span className="absolute bottom-2 -right-2 w-[1px] h-full bg-borderColorThick" />
-                                <span className="absolute -bottom-2 right-2 w-full h-[1px] bg-borderColorThick" />
-                                <span className="absolute top-2 -left-2 w-[1px] h-full bg-borderColorThick" />
-                                <span className="absolute top-0 -translate-y-1/2 left-0 w-[1px] h-[1.414rem] rotate-45 bg-borderColorThick" />
-                                <span className="absolute bottom-0 translate-y-1/2 right-0 w-[1px] h-[1.414rem] rotate-45 bg-borderColorThick" />
+                                <span className="absolute -top-2 left-2 w-full h-[1px] bg-gray-500" />
+                                <span className="absolute bottom-2 -right-2 w-[1px] h-full bg-gray-500" />
+                                <span className="absolute -bottom-2 right-2 w-full h-[1px] bg-gray-500" />
+                                <span className="absolute top-2 -left-2 w-[1px] h-full bg-gray-500" />
+                                <span className="absolute top-0 -translate-y-1/2 left-0 w-[1px] h-[1.414rem] rotate-45 bg-gray-500" />
+                                <span className="absolute bottom-0 translate-y-1/2 right-0 w-[1px] h-[1.414rem] rotate-45 bg-gray-500" />
                             </span>
                             <span>Governing</span>
                         </h2>
@@ -26,7 +133,7 @@ export default function Team() {
                 <ContainerSmall className="flex items-center">
                     <div className="w-1/2 flex justify-center">
                         <Link to='#' className="w-2/3 h-20 text-xl text-white flex justify-center items-center relative">
-                            DAO members count 51
+                            DAO members count 167
                             <img
                                 src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/644fa7ccf9e72f37ae5162ad_corner-bottom-right.svg"
                                 alt=""
@@ -56,105 +163,12 @@ export default function Team() {
                     </div>
                 </ContainerSmall>
             </div>
-            <div className="w-[33vw] ml-[14.8vw] mb-32 relative">
+            <div className="w-[83vw] ml-[14.8vw] mb-16 relative overflow-hidden border-y border-borderColor">
                 {/* <div className="absolute top-0 right-full w-[14.8vw] flex gap-4">
                     <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/6446951576624313547bb1bd_arrow-next.svg" className="w-[64px] h-[64px] cursor-pointer hover:opacity-70 duration-150 rotate-180" alt="" />
                     <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/6446951576624313547bb1bd_arrow-next.svg" className="w-[64px] h-[64px] cursor-pointer hover:opacity-70 duration-150" alt="" />
                 </div> */}
-                <div className="flex w-max">
-                    <div className="w-[33vw] p-6 border-y border-borderColor">
-                        <div className="rounded border border-borderColor p-4">
-                            <div className="flex mb-4">
-                                <div className="rounded border border-borderColor p-2 mr-4">
-                                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
-                                </div>
-                                <div className="h-full grid items-stretch">
-                                    <h5 className="mb-10">Matt Lopez</h5>
-                                    <div className="mb-8 text-lg">
-                                        <p>DAO Governer</p>
-                                        <p>[ Elective ]</p>
-                                    </div>
-                                    <div className="text-lg">
-                                        <p>Member of Elder Council</p>
-                                        <p>[ Selective ]</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="rounded border border-borderColor p-4">
-                                "Everyone wants to sit on the dinner table and enjoy the food but nobody is willing to cook. We are cooking so come join us."
-                            </div>
-                        </div>
-                    </div>
-                    <div className="w-[33vw] p-6 border-y border-borderColor">
-                        <div className="rounded border border-borderColor p-4">
-                            <div className="flex mb-4">
-                                <div className="rounded border border-borderColor p-2 mr-4">
-                                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
-                                </div>
-                                <div className="h-full grid items-stretch">
-                                    <h5 className="mb-10">Angela Stefan</h5>
-                                    <div className="mb-8 text-lg">
-                                        <p>DAO Governer</p>
-                                        <p>[ Elective ]</p>
-                                    </div>
-                                    <div className="text-lg">
-                                        <p>Member of Dev Team</p>
-                                        <p>[ Selective ]</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="rounded border border-borderColor p-4">
-                                “Invest for the long haul. Don't get too greedy and don't get too scared”
-                            </div>
-                        </div>
-                    </div>
-                    <div className="w-[33vw] p-6 border-y border-borderColor">
-                        <div className="rounded border border-borderColor p-4">
-                            <div className="flex mb-4">
-                                <div className="rounded border border-borderColor p-2 mr-4">
-                                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
-                                </div>
-                                <div className="h-full grid items-stretch">
-                                    <h5 className="mb-10">Lelouch X</h5>
-                                    <div className="mb-8 text-lg">
-                                        <p>DAO Governer</p>
-                                        <p>[ Elective ]</p>
-                                    </div>
-                                    <div className="text-lg">
-                                        <p>Office of Augustus</p>
-                                        <p>[ Selective ]</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="rounded border border-borderColor p-4">
-                                “We are Decentralized ! So long our ideas converges towards the same path of standing together for common benefit”
-                            </div>
-                        </div>
-                    </div>
-                    <div className="w-[33vw] p-6 border-y border-borderColor">
-                        <div className="rounded border border-borderColor p-4">
-                            <div className="flex mb-4">
-                                <div className="rounded border border-borderColor p-2 mr-4">
-                                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
-                                </div>
-                                <div className="h-full grid items-stretch">
-                                    <h5 className="mb-10">Itsuki Minomoto</h5>
-                                    <div className="mb-8 text-lg">
-                                        <p>Member of DAO Senate</p>
-                                        <p>[ Elective ]</p>
-                                    </div>
-                                    <div className="text-lg">
-                                        <p>Member of Elder Council</p>
-                                        <p>[ Selective ]</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="rounded border border-borderColor p-4">
-                                “Invest for the long haul. Don't get too greedy and don't get too scared”
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <Slider content={content} duration={5000} />
             </div>
             <div className="flex">
                 <div className="w-[14.8vw]" />
@@ -165,12 +179,13 @@ export default function Team() {
                     </p>
                 </div>
             </div>
-            <div className="w-[33vw] ml-[14.8vw] relative">
+            <div className="w-[83vw] ml-[14.8vw] relative">
                 <div className="absolute top-0 right-full w-[14.8vw] flex gap-4">
-                    <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/6446951576624313547bb1bd_arrow-next.svg" className="w-[64px] h-[64px] cursor-pointer hover:opacity-70 duration-150 rotate-180" alt="" />
-                    <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/6446951576624313547bb1bd_arrow-next.svg" className="w-[64px] h-[64px] cursor-pointer hover:opacity-70 duration-150" alt="" />
+                    <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/6446951576624313547bb1bd_arrow-next.svg" className="w-[64px] h-[64px] cursor-pointer hover:opacity-70 duration-150 rotate-180" alt="" onClick={onClickPre} />
+                    <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/6446951576624313547bb1bd_arrow-next.svg" className="w-[64px] h-[64px] cursor-pointer hover:opacity-70 duration-150" alt="" onClick={onClickNext} />
                 </div>
-                <div className="flex w-max">
+                <div className="overflow-hidden">
+                <div className="flex w-max duration-200" style={{ translate: `-${num * 33}vw` }}>
                     <div className="w-[33vw]">
                         <div className="py-16 flex justify-center items-center border-y border-borderColor relative">
                             <div className="w-[14vw] p-2 relative">
@@ -361,6 +376,7 @@ export default function Team() {
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
