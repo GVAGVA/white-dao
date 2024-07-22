@@ -156,7 +156,7 @@ export default function Intro() {
                             </defs>
                         </svg>
                         <svg viewBox="0 0 420 96" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full absolute bottom-0 left-0">
-                            <path className="path-anim path-anim-2" d="M80.5 94H402.257C403.053 94 403.816 93.6839 404.379 93.1213L419 78.5" stroke="url(#paint0_linear_2309_6568)" strokeWidth="2.5" strokeLinecap="round"></path>
+                            <path className="path-anim path-anim-2" d="M20.5 94H402.257C403.053 94 403.816 93.6839 404.379 93.1213L419 78.5" stroke="url(#paint0_linear_2309_6568)" strokeWidth="2.5" strokeLinecap="round"></path>
                             <defs>
                                 <linearGradient id="paint0_linear_2309_6568" x1="67.5" y1="101" x2="428.5" y2="75" gradientUnits="userSpaceOnUse">
                                     <stop stopColor="#F8CF3E"></stop>
