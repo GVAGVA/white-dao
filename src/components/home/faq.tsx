@@ -101,13 +101,7 @@ export default function Faq() {
                 </div> */}
                 <div>
                     <Accordion
-                        title="What is ChainGPT?"
-                        content={(
-                            <p className="opacity-60">What is the purpose of White Hat DAO ?</p>
-                        )}
-                    />
-                    <Accordion
-                        title="Are ChainGPT AI products already available?"
+                        title="What is the purpose of White Hat DAO ?"
                         content={(
                             <p className="opacity-60">DeFi and web3 in general can be overwhelming, especially considering the amount of due diligence and analysis that stems from engaging with each new project. White Hat DAO aims to lower the risk of entry to web3 space by providing a safety rating platform to aggregate safety and security data on web3 projects, and act as a hub for web3 infosec activities.</p>
                         )}

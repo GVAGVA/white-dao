@@ -11,7 +11,7 @@ const Accordion = (props: propsType) => {
     const [open, setOpen] = useState<boolean>(false)
 
     return (
-        <div className="border border-borderColor bg-bgColor z-10 relative text-2xl overflow-hidden px-8">
+        <div className="border border-borderColor bg-bgColor z-10 relative text-xl overflow-hidden px-8">
             <div
                 className="flex items-center justify-between cursor-pointer py-8"
                 onClick={() => setOpen(!open)}
