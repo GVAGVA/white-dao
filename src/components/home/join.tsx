@@ -9,7 +9,7 @@ export default function Join() {
                 <div className="absolute top-[-0.414vw] left-[1vw] -translate-x-1/2 w-[1px] h-[2.828vw] bg-borderColor rotate-45" />
                 <div className="absolute top-[-0.414vw] right-[1vw] translate-x-1/2 w-[1px] h-[2.828vw] bg-borderColor -rotate-45" />
             </div>
-            <div className="pt-[40px] px-[2.2vw] lg-max:px-[4.3vw]">
+            <div className="pt-6 px-[2.2vw] lg-max:px-[4.3vw]">
                 <div className="flex justify-center">
                     <div>
                         <div className="flex gap-6 items-center mb-6">
@@ -44,92 +44,65 @@ export default function Join() {
                         </div>
                     </div>
                 </div>
-                <div className="flex pt-[40px]">
+                <div className="flex pt-14">
                     <div className="w-[14.8vw] h-min p-12 border-y border-l border-borderColor text-white text-xl">
                         Live on X:
                     </div>
                     <div className="w-[66vw] border border-borderColor py-6 overflow-hidden bg-bgColor z-10 whitespace-nowrap">
                         <div className="w-max flex">
-                            <Link to='#' className="w-[33vw] px-8 hover:opacity-60 duration-200">
+                            <div className="w-[33vw] px-8">
                                 <div className="flex justify-between items-start mb-8">
                                     <div className="flex items-center">
                                         <div className="p-2 relative mr-6">
-                                            <img src="https://cdn.prod.website-files.com/64354b8ce4872a52ac1c7b06/658012ea6f74b290df4f5ffd_bnb-chain.webp" loading="lazy" width="56" alt="BNB Chain" />
+                                            <img src="/favicon.png" loading="lazy" width="56" alt="BNB Chain" />
                                             <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/644fa7cd9bc7d5ed92d90f21_corner-top-left.svg" alt="" className="absolute top-0 left-0" />
                                             <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/644fa7cd9bc7d5ed92d90f21_corner-top-left.svg" alt="" className="absolute bottom-0 right-0 rotate-180" />
                                         </div>
                                         <div>
-                                            <p className="text-white text-xl">Chainlink</p>
-                                            <p className="text-lg text-gray-600">@chainlink</p>
+                                            <p className="text-white text-xl flex items-center">
+                                                WHITE HAT DAO
+                                                <img src="/assets/images/verified-check.png" className="ml-2" width={20} alt="" />
+                                            </p>
+                                            <p className="text-lg text-gray-600">@White_Hat_DAO</p>
                                         </div>
                                     </div>
                                     <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/65253abefb080a7f70032ab6_twitter-x.svg" loading="lazy" width="26" height="26" alt="Twitter X Logo" className="mt-4" />
                                 </div>
-                                <div className="text-xl text-gray-600">
-                                    <p className="mb-8 text-wrap">This collaboration with <span className="text-white underline">@Chain_GPT</span> is a game-changer for the <span className="text-white underline">#TRON</span> community!Together, we usher in a new era of <span className="text-white underline">#AI</span> accessibility and flexibility on the <span className="text-white underline">#TRON</span> network.</p>
-                                    <p className="text-wrap"> From minting <span className="text-white underline">#NFTs</span> to deploying and auditing smart contracts, there's so much you can do!</p>
+                                <div className="text-lg mb-12">
+                                    <p className="mb-4 text-wrap">We provide a safety scroe for projects based on various factors, such as code security and potential risks and vulnerabilities. This rating can be helpful for users when evaluating the trustworthiness of a project.</p>
+                                    <p>#WHD #WhiteHatDAO $WHDT #Web3 #safety</p>
                                 </div>
-                            </Link>
-                            <Link to='#' className="w-[33vw] px-8 border-l border-borderColor hover:opacity-60 duration-200">
+                                <Link to='https://x.com/White_Hat_DAO' className="block border border-borderColorThick text-center p-3">
+                                    Follow us on Twitter for more updates
+                                </Link>
+                            </div>
+                            <div className="w-[33vw] px-8 border-l border-borderColor">
                                 <div className="flex justify-between items-start mb-8">
                                     <div className="flex items-center">
                                         <div className="p-2 relative mr-6">
-                                            <img src="https://cdn.prod.website-files.com/64354b8ce4872a52ac1c7b06/658012ea6f74b290df4f5ffd_bnb-chain.webp" loading="lazy" width="56" alt="BNB Chain" />
+                                            <img src="/favicon.png" loading="lazy" width="56" alt="BNB Chain" />
                                             <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/644fa7cd9bc7d5ed92d90f21_corner-top-left.svg" alt="" className="absolute top-0 left-0" />
                                             <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/644fa7cd9bc7d5ed92d90f21_corner-top-left.svg" alt="" className="absolute bottom-0 right-0 rotate-180" />
                                         </div>
                                         <div>
-                                            <p className="text-white text-xl">Chainlink</p>
-                                            <p className="text-lg text-gray-600">@chainlink</p>
+                                            <p className="text-white text-xl flex items-center">
+                                                WHITE HAT DAO
+                                                <img src="/assets/images/verified-check.png" className="ml-2" width={20} alt="" />
+                                            </p>
+                                            <p className="text-lg text-gray-600">@White_Hat_DAO</p>
                                         </div>
                                     </div>
                                     <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/65253abefb080a7f70032ab6_twitter-x.svg" loading="lazy" width="26" height="26" alt="Twitter X Logo" className="mt-4" />
                                 </div>
-                                <div className="text-xl text-gray-600">
-                                    <p className="mb-8 text-wrap">This collaboration with <span className="text-white underline">@Chain_GPT</span> is a game-changer for the <span className="text-white underline">#TRON</span> network.</p>
-                                    <p className="text-wrap"> From minting <span className="text-white underline">#NFTs</span> to deploying and auditing smart contracts, there's so much you can do!</p>
+                                <div>
+                                    {/* <video className="w-full" controls>
+                                        <source src="https://www.youtube.com/watch?v=L2ZAQi_HK_I" type="video/mp4" />
+                                        <source src="https://www.youtube.com/watch?v=L2ZAQi_HK_I" type="video/ogg" />
+                                        Your browser does not support the video tag.
+                                    </video> */}
+                                    <iframe src="https://www.youtube.com/watch?v=L2ZAQi_HK_I" className="w-full h-auto" allowFullScreen></iframe>
                                 </div>
-                            </Link>
-                            <Link to='#' className="w-[33vw] px-8 border-l border-borderColor hover:opacity-60 duration-200">
-                                <div className="flex justify-between items-start mb-8">
-                                    <div className="flex items-center">
-                                        <div className="p-2 relative mr-6">
-                                            <img src="https://cdn.prod.website-files.com/64354b8ce4872a52ac1c7b06/658012ea6f74b290df4f5ffd_bnb-chain.webp" loading="lazy" width="56" alt="BNB Chain" />
-                                            <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/644fa7cd9bc7d5ed92d90f21_corner-top-left.svg" alt="" className="absolute top-0 left-0" />
-                                            <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/644fa7cd9bc7d5ed92d90f21_corner-top-left.svg" alt="" className="absolute bottom-0 right-0 rotate-180" />
-                                        </div>
-                                        <div>
-                                            <p className="text-white text-xl">Chainlink</p>
-                                            <p className="text-lg text-gray-600">@chainlink</p>
-                                        </div>
-                                    </div>
-                                    <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/65253abefb080a7f70032ab6_twitter-x.svg" loading="lazy" width="26" height="26" alt="Twitter X Logo" className="mt-4" />
-                                </div>
-                                <div className="text-xl text-gray-600">
-                                    <p className="mb-8 text-wrap">This collaboration with <span className="text-white underline">@Chain_GPT</span> is a game-changer for the <span className="text-white underline">#TRON</span> community!Together, we usher in a new era of <span className="text-white underline">#AI</span> accessibility and flexibility on the <span className="text-white underline">#TRON</span> network.</p>
-                                    <p className="text-wrap"> From minting <span className="text-white underline">#NFTs</span> to deploying and auditing smart contracts, there's so much you can do!</p>
-                                </div>
-                            </Link>
-                            <Link to='#' className="w-[33vw] px-8 border-l border-borderColor hover:opacity-60 duration-200">
-                                <div className="flex justify-between items-start mb-8">
-                                    <div className="flex items-center">
-                                        <div className="p-2 relative mr-6">
-                                            <img src="https://cdn.prod.website-files.com/64354b8ce4872a52ac1c7b06/658012ea6f74b290df4f5ffd_bnb-chain.webp" loading="lazy" width="56" alt="BNB Chain" />
-                                            <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/644fa7cd9bc7d5ed92d90f21_corner-top-left.svg" alt="" className="absolute top-0 left-0" />
-                                            <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/644fa7cd9bc7d5ed92d90f21_corner-top-left.svg" alt="" className="absolute bottom-0 right-0 rotate-180" />
-                                        </div>
-                                        <div>
-                                            <p className="text-white text-xl">Chainlink</p>
-                                            <p className="text-lg text-gray-600">@chainlink</p>
-                                        </div>
-                                    </div>
-                                    <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/65253abefb080a7f70032ab6_twitter-x.svg" loading="lazy" width="26" height="26" alt="Twitter X Logo" className="mt-4" />
-                                </div>
-                                <div className="text-xl text-gray-600">
-                                    <p className="mb-8 text-wrap">This collaboration with <span className="text-white underline">@Chain_GPT</span> is a game-changer for the <span className="text-white underline">#TRON</span> community!Together, we usher in a new era of <span className="text-white underline">#AI</span> accessibility and flexibility on the <span className="text-white underline">#TRON</span> network.</p>
-                                    <p className="text-wrap"> From minting <span className="text-white underline">#NFTs</span> to deploying and auditing smart contracts, there's so much you can do!</p>
-                                </div>
-                            </Link>
+                            </div>
                         </div>
                     </div>
                 </div>

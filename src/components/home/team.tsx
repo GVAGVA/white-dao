@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
 import ContainerSmall from "../container-small";
 import Slider from "../ui/slider";
-// import { useState } from "react";
 
 const content = [
     <div className="w-[33vw] p-6">
         <div className="rounded border border-borderColor p-4">
             <div className="flex mb-4">
                 <div className="rounded border border-borderColor p-2 mr-4">
-                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
+                    <img src="/assets/images/members/matt_lopez.png" alt="" className="w-48" />
                 </div>
                 <div className="h-full grid items-stretch">
                     <h5 className="mb-10">Matt Lopez</h5>
@@ -23,7 +22,7 @@ const content = [
                 </div>
             </div>
             <div className="rounded border border-borderColor p-4">
-                "Everyone wants to sit on the dinner table and enjoy the food but nobody is willing to cook. We are cooking so come join us."
+                "Flectere si nequeo superos, Acheronta movebo."
             </div>
         </div>
     </div>,
@@ -31,30 +30,7 @@ const content = [
         <div className="rounded border border-borderColor p-4">
             <div className="flex mb-4">
                 <div className="rounded border border-borderColor p-2 mr-4">
-                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
-                </div>
-                <div className="h-full grid items-stretch">
-                    <h5 className="mb-10">Angela Stefan</h5>
-                    <div className="mb-8 text-lg">
-                        <p>DAO Governer</p>
-                        <p>[ Elective ]</p>
-                    </div>
-                    <div className="text-lg">
-                        <p>Member of Dev Team</p>
-                        <p>[ Selective ]</p>
-                    </div>
-                </div>
-            </div>
-            <div className="rounded border border-borderColor p-4">
-                “Invest for the long haul. Don't get too greedy and don't get too scared”
-            </div>
-        </div>
-    </div>,
-    <div className="w-[33vw] p-6">
-        <div className="rounded border border-borderColor p-4">
-            <div className="flex mb-4">
-                <div className="rounded border border-borderColor p-2 mr-4">
-                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
+                    <img src="/assets/images/members/lelouch_x.png" alt="" className="w-48" />
                 </div>
                 <div className="h-full grid items-stretch">
                     <h5 className="mb-10">Lelouch X</h5>
@@ -77,7 +53,7 @@ const content = [
         <div className="rounded border border-borderColor p-4">
             <div className="flex mb-4">
                 <div className="rounded border border-borderColor p-2 mr-4">
-                    <img src="/assets/images/users/man.jpg" alt="" className="w-48" />
+                    <img src="/assets/images/members/itsuki_minomoto.png" alt="" className="w-48" />
                 </div>
                 <div className="h-full grid items-stretch">
                     <h5 className="mb-10">Itsuki Minomoto</h5>
@@ -93,6 +69,52 @@ const content = [
             </div>
             <div className="rounded border border-borderColor p-4">
                 “Invest for the long haul. Don't get too greedy and don't get too scared”
+            </div>
+        </div>
+    </div>,
+    <div className="w-[33vw] p-6">
+        <div className="rounded border border-borderColor p-4">
+            <div className="flex mb-4">
+                <div className="rounded border border-borderColor p-2 mr-4">
+                    <img src="/assets/images/members/Boss.png" alt="" className="w-48" />
+                </div>
+                <div className="h-full grid items-stretch">
+                    <h5 className="mb-10">Oleksandr Makovoz</h5>
+                    <div className="mb-8 text-lg">
+                        <p>Member of DAO Senate</p>
+                        <p>[ Elective ]</p>
+                    </div>
+                    <div className="text-lg">
+                        <p>Member of Elder Council</p>
+                        <p>[ Selective ]</p>
+                    </div>
+                </div>
+            </div>
+            <div className="rounded border border-borderColor p-4">
+                “The greatest glory in living lies not in never falling, but in rising every time we fall.”
+            </div>
+        </div>
+    </div>,
+    <div className="w-[33vw] p-6">
+        <div className="rounded border border-borderColor p-4">
+            <div className="flex mb-4">
+                <div className="rounded border border-borderColor p-2 mr-4">
+                    <img src="/assets/images/members/angela.png" alt="" className="w-48" />
+                </div>
+                <div className="h-full grid items-stretch">
+                    <h5 className="mb-10">Angela Steffens</h5>
+                    <div className="mb-8 text-lg">
+                        <p>Member of DAO Senate</p>
+                        <p>[ Elective ]</p>
+                    </div>
+                    <div className="text-lg">
+                        <p>Member of Elder Council</p>
+                        <p>[ Selective ]</p>
+                    </div>
+                </div>
+            </div>
+            <div className="rounded border border-borderColor p-4">
+                “Lets keep working for innovation & decentralization. We will get there.”
             </div>
         </div>
     </div>

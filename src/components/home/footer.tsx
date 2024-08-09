@@ -74,7 +74,7 @@ export default function Footer() {
                                 <Link to='https://www.linkedin.com/company/whitehatdao' target="_blank">
                                     <IconBrandLinkedin className="opacity-60 hover:opacity-100 cursor-pointer duration-200 w-[30px] h-[30px]" />
                                 </Link>
-                                <Link to='http://discord.gg/sHbRMxev3p ' target="_blank">
+                                <Link to='http://discord.gg/sHbRMxev3p' target="_blank">
                                     <IconBrandDiscord className="opacity-60 hover:opacity-100 cursor-pointer duration-200 w-[30px] h-[30px]" />
                                 </Link>
                                 <Link to='http://t.me/whitehatdao' target="_blank">

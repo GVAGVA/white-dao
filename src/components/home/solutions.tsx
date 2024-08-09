@@ -20,7 +20,7 @@ export default function Solutions() {
             </div>
 
             <ContainerSmall>
-                <div className="my-8 text-white">
+                <div className="my-10 text-white">
                     <div className="mb-4 pl-4">
                         <span className="w-14 h-14 text-xl flex justify-center items-center relative">
                             01
@@ -29,8 +29,8 @@ export default function Solutions() {
                         </span>
                     </div>
                     <div className="flex">
-                        <div className="w-[33vw] h-[280px] grid content-between text-white px-4 pb-4 border-b border-borderColor">
-                            <div>
+                        <div className="w-[33vw] text-white px-4 pb-4 border-b border-borderColor">
+                            <div className="mb-24">
                                 <h4 className="mb-3">AI Security Audit</h4>
                                 <p>A comprehensive security assessment for smart contract and blockchain code to identify vulnerabilities and recommendations to fix them</p>
                             </div>
@@ -50,7 +50,7 @@ export default function Solutions() {
                         </div>
                     </div>
                 </div>
-                <div className="my-8 text-white">
+                <div className="my-10 text-white">
                     <div className="mb-4 pl-4">
                         <span className="w-14 h-14 text-xl flex justify-center items-center relative">
                             02
@@ -59,8 +59,8 @@ export default function Solutions() {
                         </span>
                     </div>
                     <div className="flex">
-                        <div className="w-[33vw] h-[280px] grid content-between text-white px-4 pb-4 border-b border-borderColor">
-                            <div>
+                        <div className="w-[33vw] text-white px-4 pb-4 border-b border-borderColor">
+                            <div className="mb-24">
                                 <h4 className="mb-3">Safety Rating</h4>
                                 <p>Our Safety Rating app provides the security tools you need to do due diligence on any project token to avoid scams & fraud., have more peace of mind and become a confident crypto trader.</p>
                             </div>
@@ -80,7 +80,7 @@ export default function Solutions() {
                         </div>
                     </div>
                 </div>
-                <div className="my-8 text-white">
+                <div className="my-10 text-white">
                     <div className="mb-4 pl-4">
                         <span className="w-14 h-14 text-xl flex justify-center items-center relative">
                             03
@@ -89,8 +89,8 @@ export default function Solutions() {
                         </span>
                     </div>
                     <div className="flex">
-                        <div className="w-[33vw] h-[280px] grid content-between text-white px-4 pb-4 border-b border-borderColor">
-                            <div>
+                        <div className="w-[33vw] text-white px-4 pb-4 border-b border-borderColor">
+                            <div className="mb-24">
                                 <h4 className="mb-3">DAO Governance App</h4>
                                 <p>Our DAO Application offers quantified economic and policy making decisions to be validated more effectively & efficiently by DAO members. Because of two rounds voting mechanisms and community wide discussion for all main DAO proposals. Thus promotes better transparency and accountability.</p>
                             </div>
@@ -110,7 +110,7 @@ export default function Solutions() {
                         </div>
                     </div>
                 </div>
-                <div className="mt-8 text-white">
+                <div className="mt-10 text-white">
                     <div className="mb-4 pl-4">
                         <span className="w-14 h-14 text-xl flex justify-center items-center relative">
                             04
@@ -119,8 +119,8 @@ export default function Solutions() {
                         </span>
                     </div>
                     <div className="flex">
-                        <div className="w-[33vw] h-[280px] grid content-between text-white px-4 pb-4 border-b border-borderColor">
-                            <div>
+                        <div className="w-[33vw] text-white px-4 pb-4 border-b border-borderColor">
+                            <div className="mb-24">
                                 <h4 className="mb-3">Launchpad</h4>
                                 <p>A multi-chain decentralized launchpad for crowdfunding, is a great way for users to invest and project owners to launch their projects.</p>
                             </div>

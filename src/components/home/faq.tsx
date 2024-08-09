@@ -103,13 +103,13 @@ export default function Faq() {
                     <Accordion
                         title="What is the purpose of White Hat DAO ?"
                         content={(
-                            <p className="opacity-60">DeFi and web3 in general can be overwhelming, especially considering the amount of due diligence and analysis that stems from engaging with each new project. White Hat DAO aims to lower the risk of entry to web3 space by providing a safety rating platform to aggregate safety and security data on web3 projects, and act as a hub for web3 infosec activities.</p>
+                            <p>DeFi and web3 in general can be overwhelming, especially considering the amount of due diligence and analysis that stems from engaging with each new project. White Hat DAO aims to lower the risk of entry to web3 space by providing a safety rating platform to aggregate safety and security data on web3 projects, and act as a hub for web3 infosec activities.</p>
                         )}
                     />
                     <Accordion
                         title="What are the products White Hat DAO working on ?"
                         content={(
-                            <div className="opacity-60">
+                            <div>
                                 <p>Our Products are below:</p>
                                 <p>AI-Smart Contract Security Audit ( We do manual audit as well )</p>
                                 <p>Safety Rating ( available only for deployed contracts )</p>
@@ -122,21 +122,20 @@ export default function Faq() {
                         title="What is the mission & vision?"
                         content={(
                             <>
-                                <p className="opacity-60">White Hat DAO is a Decentralized Autonomous Organization and aims to build a better, safer environment for the web3 community. WHD provides solutions through research, education, web3 tools.</p>
-                                <p>Our safety & security applications will provide much needed security details for web3 users and investors before investing in any projects.</p>
+                                <p>White Hat DAO is a Decentralized Autonomous Organization and aims to build a better, safer environment for the web3 community. WHD provides solutions through research, education, web3 tools. Our safety & security applications will provide much needed security details for web3 users and investors before investing in any projects.</p>
                             </>
                         )}
                     />
                     <Accordion
                         title="Who are your competitors?"
                         content={(
-                            <p className="opacity-60">We are not here for competition; rather, we would like to work with all projects from different content niches and industries as long as we can raise awareness to create a safer environment in the web3 space.</p>
+                            <p>We are not here for competition; rather, we would like to work with all projects from different content niches and industries as long as we can raise awareness to create a safer environment in the web3 space.</p>
                         )}
                     />
                     <Accordion
                         title="What is the legal status of White Hat DAO ?"
                         content={(
-                            <p className="opacity-60">White Hat DAO has been registered as a legal entity under the name of ( White Hat DAO LLC ) as a Decentralized Autonomous Organization. Governed by a clear set of rules and executes actions automatically. Thus, effectively disregarding intermediaries. White Hat DAO controlled by Governance token holders. It does not have any employees. DAO Governors may propose any proposals drafted via our community forum. Once submitted the token holders will vote on whether to approve or reject these proposals.</p>
+                            <p>White Hat DAO has been registered as a legal entity under the name of ( White Hat DAO LLC ) as a Decentralized Autonomous Organization. Governed by a clear set of rules and executes actions automatically. Thus, effectively disregarding intermediaries. White Hat DAO controlled by Governance token holders. It does not have any employees. DAO Governors may propose any proposals drafted via our community forum. Once submitted the token holders will vote on whether to approve or reject these proposals.</p>
                         )}
                     />
                 </div>

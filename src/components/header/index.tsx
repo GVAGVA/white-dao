@@ -6,7 +6,7 @@ import SafetyRating from "./safety-rating"
 import AIAudit from "./ai-audit"
 import Launchpad from "./launchpad"
 import GovToken from "./gov-token"
-import Community from "./community"
+import Socials from "./socials"
 
 export default function Header() {
     return (
@@ -25,7 +25,7 @@ export default function Header() {
                     <AIAudit />
                     <Launchpad />
                     <GovToken />
-                    <Community />
+                    <Socials />
                 </div>
             </div>
             <div className="w-[17vw] flex justify-end pr-[4.3%] lg:pr-[2.2vw]">

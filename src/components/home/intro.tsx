@@ -142,7 +142,7 @@ export default function Intro() {
                     </div>
                 </div>
                 <div className="w-1/2">
-                    <div className="w-2/3 xl:w-1/2 m-auto py-8 px-6 relative">
+                    <div className="w-4/5 lg:w-2/3 xl:w-1/2 m-auto py-8 px-6 relative">
                         <img src="/assets/images/intro_remove_corners.png" className="rounded-[5%]" alt="" />
                         <svg viewBox="0 0 420 96" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full absolute top-0 left-0">
                             <path className="path-anim path-anim-1" d="M2 55V19.2426C2 18.447 2.31607 17.6839 2.87868 17.1213L17.1213 2.87868C17.6839 2.31607 18.447 2 19.2426 2H417" stroke="url(#paint1_linear_2309_6568)" strokeWidth="2.5" strokeLinecap="round"></path>

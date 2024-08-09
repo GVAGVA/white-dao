@@ -13,46 +13,46 @@ export default function DAOGovernance() {
                     <div className="w-max p-6 opacity-opacity1">
                         JOIN THE DAO GOVERNANCE
                     </div>
-                    <div className="px-5 py-2 border-t border-borderColor flex justify-between items-center hover:opacity-70 duration-200">
-                        <Link to="#" target="_blank" className="flex items-center gap-4 mr-14 w-max">
+                    <Link to="#" target="_blank" className="px-5 py-2 border-t border-borderColor flex justify-between items-center hover:opacity-70 duration-200">
+                        <div className="flex items-center gap-4 mr-14 w-max">
                             <img src="/assets/images/dao_gov.webp" className="w-8 lg:w-10 xl:w-12 2xl:w-14" alt="" />
                             <p className="text-white">DAO Gov</p>
-                        </Link>
+                        </div>
                         <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/64491f577f22d780663c25d1_ico-arrow.svg" className="w-3 h-3" alt="" />
-                    </div>
-                    <div className="px-5 py-2 border-t border-borderColor flex justify-between items-center hover:opacity-70 duration-200">
-                        <Link to="#" target="_blank" className="flex items-center gap-4 mr-14 w-max">
+                    </Link>
+                    <Link to="#" target="_blank" className="px-5 py-2 border-t border-borderColor flex justify-between items-center hover:opacity-70 duration-200">
+                        <div className="flex items-center gap-4 mr-14 w-max">
                             <img src="/assets/images/dao_senate.webp" className="w-8 lg:w-10 xl:w-12 2xl:w-14" alt="" />
                             <p className="text-white">DAO Senate</p>
-                        </Link>
+                        </div>
                         <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/64491f577f22d780663c25d1_ico-arrow.svg" className="w-3 h-3" alt="" />
-                    </div>
-                    <div className="px-5 py-2 border-t border-borderColor flex justify-between items-center hover:opacity-70 duration-200">
-                        <Link to="#" target="_blank" className="flex items-center gap-4 mr-14 w-max">
+                    </Link>
+                    <Link to="#" target="_blank" className="px-5 py-2 border-t border-borderColor flex justify-between items-center hover:opacity-70 duration-200">
+                        <div className="flex items-center gap-4 mr-14 w-max">
                             <img src="/assets/images/elder_council.webp" className="w-8 lg:w-10 xl:w-12 2xl:w-14" alt="" />
                             <p className="text-white">Elder Council</p>
-                        </Link>
+                        </div>
                         <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/64491f577f22d780663c25d1_ico-arrow.svg" className="w-3 h-3" alt="" />
-                    </div>
-                    <div className="px-5 py-2 border-t border-borderColor flex justify-between items-center hover:opacity-70 duration-200">
-                        <Link to="#" target="_blank" className="flex items-center gap-4 mr-14 w-max">
+                    </Link>
+                    <Link to="#" target="_blank" className="px-5 py-2 border-t border-borderColor flex justify-between items-center hover:opacity-70 duration-200">
+                        <div className="flex items-center gap-4 mr-14 w-max">
                             <img src="/assets/images/office_of_augustus.webp" className="w-8 lg:w-10 xl:w-12 2xl:w-14" alt="" />
                             <p className="text-white">Office of Augustus</p>
-                        </Link>
+                        </div>
                         <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/64491f577f22d780663c25d1_ico-arrow.svg" className="w-3 h-3" alt="" />
-                    </div>
+                    </Link>
                 </div>
                 <div className="border-r border-borderColor w-max">
                     <div className="w-max p-6 opacity-opacity1">
                         Active Discussions
                     </div>
-                    <div className="px-5 py-2 border-t border-borderColor flex justify-between items-center hover:opacity-70 duration-200">
-                        <Link to="#" target="_blank" className="flex items-center gap-4 mr-14 w-max">
+                    <Link to="#" target="_blank" className="px-5 py-2 border-t border-borderColor flex justify-between items-center hover:opacity-70 duration-200">
+                        <div className="flex items-center gap-4 mr-14 w-max">
                             <img src="/assets/images/dao_proposals.webp" className="w-8 lg:w-10 xl:w-12 2xl:w-14" alt="" />
                             <p className="text-white">DAO Proposals</p>
-                        </Link>
+                        </div>
                         <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/64491f577f22d780663c25d1_ico-arrow.svg" className="w-3 h-3" alt="" />
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>
