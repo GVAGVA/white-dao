@@ -95,7 +95,13 @@ export default function Join() {
                                     <img src="https://cdn.prod.website-files.com/64354b8ce4872ad8cd1c7b04/65253abefb080a7f70032ab6_twitter-x.svg" loading="lazy" width="26" height="26" alt="Twitter X Logo" className="mt-4" />
                                 </div>
                                 <div>
-                                    <iframe src="https://www.youtube.com/L2ZAQi_HK_I" className="w-full h-auto" allowFullScreen></iframe>
+                                    <iframe
+                                        src="https://www.youtube.com/embed/L2ZAQi_HK_I"
+                                        title="White Hat DAO Youtube Video"
+                                        allow="accelerometer;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
+                                        className="w-full h-full"
+                                        allowFullScreen
+                                    />
                                 </div>
                             </div>
                         </div>

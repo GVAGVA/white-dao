@@ -141,7 +141,7 @@ export default function Intro() {
                         </div>
                     </div>
                 </div>
-                <div className="w-1/2">
+                <div className="w-1/2 flex">
                     <div className="w-4/5 lg:w-2/3 xl:w-1/2 m-auto py-8 px-6 relative">
                         <img src="/assets/images/intro_remove_corners.png" className="rounded-[5%]" alt="" />
                         <svg viewBox="0 0 420 96" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full absolute top-0 left-0">
